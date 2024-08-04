@@ -11,9 +11,16 @@ This collection is in no ways complete as I take most of my notes offline in a n
 In here are just the things that are way to tedious to copy down on paper or for other various reasons. 
 
 # For the Future
+- [ ] translate [cypersecurity](./cypersecurity/) fully to english and update the file names
 - [ ] digitalize handwritten notes
 - [ ] use [docosaurus](https://github.com/facebook/docusaurus) to make the content publicly available
 
 # Navigation
 
 - [Introduction to Algorithms](./programming/Introduction_to_Algorithms/notes.md)
+- [Cypersecurity](./cypersecurity)
+    - [Basics](./cypersecurity/Grundlagen/)
+    - [Algorithms](./cypersecurity/Algorithmen/)
+    - [Attack vectors](./cypersecurity/Angriffsvektoren/)
+    - [Methods](./cypersecurity/Methoden/)
+    - [Processes](./cypersecurity/Prozesse/)
