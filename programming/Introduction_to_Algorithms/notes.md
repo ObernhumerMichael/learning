@@ -21,6 +21,7 @@
       - [2.1.1 The Algorithm](#211-the-algorithm)
       - [2.1.2 What are loop invariants](#212-what-are-loop-invariants)
       - [2.1.3 Insertion sort loop invariant](#213-insertion-sort-loop-invariant)
+      - [2.1.4 Pseudocode conventions](#214-pseudocode-conventions)
     - [2.2 Analyzing algorithms](#22-analyzing-algorithms)
     - [2.3 Designing algorithms](#23-designing-algorithms)
 <!--toc:end-->
@@ -118,6 +119,50 @@ A more formal treatment of the second property would require us to state and sho
 Let’s not get bogged down in such formalism just yet.
 Instead, we’ll rely on our informal analysis to show that the second property holds for the outer loop.
 
+**Termination:** 
+
+Finally, we examine loop termination.
+The loop variable $i$ starts at 2 and increases by 1 in each iteration.
+Once $i’s$ value exceeds $n$ in line 1, the loop terminates.
+That is, the loop terminates once $i$ equals $n + 1$.
+Substituting $n + 1$ for $i$ in the wording of the loop invariant yields that the subarray $A[1:n]$ consists of the elements originally in $A[1:n]$ , but in sorted order.
+Hence, the algorithm is correct.
+
+#### 2.1.4 Pseudocode conventions
+
+Although many programming languages enforce 0-origin indexing for arrays (0 is the smallest valid index), we choose whichever indexing scheme is clearest for human readers to understand.
+Because people usually start counting at 1, not 0, most - but not all - of the arrays in this book use 1-origin indexing.
+To be clear about whether a particular algorithm assumes 0-origin or 1-origin indexing, we’ll specify the bounds of the arrays explicitly.
+
+#### 2.1.5 Exercises
+
+
+**2.1-1**
+Using Figure 2.2 as a model, illustrate the operation of INSERTION-SORT on an array initially containing the sequence $\left\langle 31,41,59,26,41,58 \right\rangle$.
+
+**2.1-2** 
+Consider the procedure SUM-ARRAY on the facing page.
+It computes the sum of the $n$ numbers in array $A[1:n]$.
+State a loop invariant for this procedure, and use its initialization, maintenance, and termination properties to show that the SUM-ARRAY procedure returns the sum of the numbers in $A[1:n]$.
+
+![SUM-ARRAY](./img/2.1_Insertion_sort/sum_array.png) 
+
+**2.1-3**
+Rewrite the INSERTION-SORT procedure to sort into monotonically decreasing instead of monotonically increasing order. 
+
+**2.1-4** 
+Consider the `searching problem`: 
+
+**Input:** A sequence of $n$ numbers $\left\langle a_1, a_2, ..., a_n \right\rangle$ stored in array $A[1:n]$ and a value x .
+
+**Output:** An index $i$ such that $x$ equals $A[i]$ or the special value NIL if $x$ does not appear in $A$ .
+
+Write pseudocode for `linear search`, which scans through the array from beginning to end, looking for $x$ .
+Using a loop invariant, prove that your algorithm is correct.
+Make sure that your loop invariant fulûlls the three necessary properties.
+
+**2.1-5**
+Consider the problem of adding two $n$-bit binary integers $a$ and $b$ , stored in two $n$-element arrays $A[0:n-1]$ and $B[0:n-1]$, where each element is either 0 or 1, $a=\sum_{i=0}^{n-1} A[i]*2^i$, and  $b=\sum_{i=0}^{n-1} B[i]*2^i$. The sum $c=a+b$ of the two integers should be stored in binary form in an $(n+1)$-element array $C[0:n]$, where  $c=\sum_{i=0}^{n} C[i]*2^i$. Write a procedure ADD-BINARY-INTEGERS that takes as input arrays $A$ and $B$, along with the length $n$, and returns array $C$ holding the sum. 
 
 ### 2.2 Analyzing algorithms 
 ### 2.3 Designing algorithms 
