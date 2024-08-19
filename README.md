@@ -20,6 +20,7 @@ In here are just the things that are way to tedious to copy down on paper or for
 # Navigation
 
 - [Introduction to Algorithms](./programming/Introduction_to_Algorithms/notes.md)
+- [Design Patterns: Elements of Reusable Object-Oriented Software](./programming/Design_Patterns_Elements_of_Reusable_Object_Oriented/Design_Patterns_Elements_of_Reusable_Object_Oriented.md)
 - [Cypersecurity](./cypersecurity)
   - [Basics](./cypersecurity/Grundlagen/)
   - [Algorithms](./cypersecurity/Algorithmen/)
