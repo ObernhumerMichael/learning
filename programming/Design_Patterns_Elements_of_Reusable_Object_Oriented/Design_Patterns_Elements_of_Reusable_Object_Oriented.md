@@ -231,3 +231,15 @@ We will examine seven problems in Lexi's design:
 ### Glyphs
 
 ![](./img/Screenshot_20240814-144644.png)
+
+### Composite Pattern
+
+Recursive composition is good for more than just documents.
+We can use it to represent any potentially complex, hierarchical structure.
+The Composite (163) pattern captures the essence of recursive composition in object-oriented terms.
+
+## Formatting
+
+### Compositor and Composition
+
+![](./img/swappy-20240825-195226.png)
