@@ -4,7 +4,9 @@
 - [For the Future](#for-the-future)
 - [Navigation](#navigation)
 - [Development](#development)
-<!--toc:end-->
+  - [Dependencies](#dependencies)
+  - [Mermaid](#mermaid)
+  <!--toc:end-->
 
 # What is this?
 
@@ -14,9 +16,9 @@ In here are just the things that are way to tedious to copy down on paper or for
 
 # For the Future
 
-- [ ] translate [cypersecurity](./cypersecurity/) fully to english and update the file names
+- [ ] translate [cybersecurity](./cypersecurity/) fully to english and update the file names
 - [ ] digitalize handwritten notes
-- [ ] use [docosaurus](https://github.com/facebook/docusaurus) to make the content publicly available as a website
+- [ ] use [docusaurus](https://github.com/facebook/docusaurus) to make the content publicly available as a website
 
 # Navigation
 
@@ -33,8 +35,24 @@ In here are just the things that are way to tedious to copy down on paper or for
 # Development
 
 Execute the following command at the root of the repo.
-This command autoconverts the markdown files to pdfs on change.
+This command auto converts the markdown files to PDFs on change.
 
 ```sh
 find ./ -name '*.md'| entr ./build.sh /_
+```
+
+## Dependencies
+
+- [pandoc](https://github.com/jgm/pandoc)
+- [mermaid-cli](https://github.com/mermaid-js/mermaid-cli)
+- [entr](https://github.com/eradman/entr)
+
+## Mermaid
+
+To let a mermaid diagram show a `Figure N: <Text>` / `ALT=<Text>` one has to use set the `accDescr` property.
+For more information see the [mermaid-cli](https://github.com/mermaid-js/mermaid-cli) docs.
+
+```
+graph
+   accDescr: My description here
 ```
