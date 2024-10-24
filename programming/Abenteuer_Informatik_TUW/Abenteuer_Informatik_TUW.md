@@ -11,16 +11,19 @@ footnotes-pretty: true
 <!--toc:start-->
 
 - [1. Sag mir wohin](#1-sag-mir-wohin)
-  - [Dijkstra-Algorithm](#dijkstra-algorithm)
-  - [Graphenalgorithmen](#graphenalgorithmen)
+  - [Der Dijkstra-Algorithus](#der-dijkstra-algorithus)
+  - [Was steck dahinter](#was-steck-dahinter)
     - [Runtime](#runtime)
     - [Komplexität](#komplexität)
-  - [TODO](#todo)
-  <!--toc:end-->
+  - [Das ist Informatik: Probleme lösen](#das-ist-informatik-probleme-lösen)
+    - [Lösungsschemen](#lösungsschemen)
+    - [Anwendung](#anwendung)
+- [Notizen](#notizen)
+<!--toc:end-->
 
 # 1. Sag mir wohin
 
-## Dijkstra-Algorithm
+## Der Dijkstra-Algorithmus
 
 **Dijkstra-Algorithmus als Blockdiagramm:**
 
@@ -30,7 +33,7 @@ footnotes-pretty: true
 
 ![fertige-landkarte-nach-dijkstra](./img/1_sag_mir_wohin/fertige-landkarte-nach-dijkstra.png)
 
-## Graphenalgorithmen
+## Was steck dahinter
 
 Man unterscheidet ungerichtete Graphen, also solche, bei denen die Verbindung zweier Knoten in beide Richtungen geht (ohne Pfeil), und gerichtete Graphen (mit Pfeil).
 
@@ -78,4 +81,50 @@ Dies bedeutet, dass in der Komplexitätsfunktion die Problemgröße irgendwo in 
 
 NP-Komplexitäten sind $2^n$, $n!$ oder $n^n$.
 
-## TODO
+## Das ist Informatik: Probleme lösen
+
+### Lösungsschemen
+
+Allgemeines Problemlöseschema:
+
+![Allgemeines Problemlöseschema](./img/1_sag_mir_wohin/problem-loesungs-schaema.png)
+
+Struktogramm:
+
+![Struktogramm für die Brute-Force-Methode, den kürzesten Weg zu finden](./img/1_sag_mir_wohin/stuktogramm-brute-force.png)
+
+### Anwendung
+
+Dijkstra nutzt recht uneingeschränkt die Breitensuche und erkundet den Graphen daher ohne Bevorzugung einer Richtung.
+
+![](./img/1_sag_mir_wohin/kreise-landkarte.png)
+
+Ein gedachtes Rechteck um Start und Ziel grenzt die Suche ein, indem nun alle Orte außerhalb des Rechtecks nicht mehr in das Verfahren einbezogen werden.
+
+![](./img/1_sag_mir_wohin/bounding-box.png)
+
+Die Methode der Bounding-Box könnte dazu führen, die beste Strecke gar nicht zu finden:
+Woher wissen wir, dass es nicht günstiger ist, ein paar Kilometer in Gegenrichtung zu fahren,
+um dann eine schnurgerade Autobahn zu erreichen, auf der man den Umweg leicht wieder hereinholt?
+
+Besser ist, zwar den Fokus der Suche in Richtung des Ziels zu lenken, aber trotzdem noch alle Optionen offenzuhalten.
+Wir könnten daher viel leicht die Länge der direkten Strecke zum Ziel (Luftlinie) als eine Art „Lustfaktor“ in den Algorithmus einbeziehen:
+Je kürzer die Luftlinie, desto williger steuern wir einen Ort an, werden aber die anderen Orte auch nicht ignorieren.
+
+Neben den tatsächlich ermittelten Strecken zu den Orten vom Start aus,
+können wir auch die Summe (violett) aus tatsächlicher Strecke vom Start (rot) und minimaler Strecke zum Ziel (blau) ermittelten.
+Das ist gleichzeitig eine minimale Strecke zum Ziel bei Nutzung des Ortes als Teilziel.
+
+![](./img/1_sag_mir_wohin/dijkstra-mit-luftlinie.png)
+
+Hier wird auch ein ganz wesentlicher Vorteil der sehr allgemeinen, abstrakten Beschreibung eines Algorithmus deutlich.
+Verbesserungen und Veränderungen sind so meistens nur sehr geringfügig.
+Es wird sofort offensichtlich, an welchen Stellen die Programmierer auch die Implementierung überarbeiten müssen.
+
+![](./img/1_sag_mir_wohin/modellbildung.png)
+
+![A-Stern-Algorithmus-als-Blockcode](./img/1_sag_mir_wohin/a-stern-algo.png)
+
+# Notizen
+
+Lesezeichen: S.42 Buch / 53 Digital
