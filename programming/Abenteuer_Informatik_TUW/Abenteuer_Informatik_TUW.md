@@ -11,13 +11,20 @@ footnotes-pretty: true
 <!--toc:start-->
 
 - [1. Sag mir wohin](#1-sag-mir-wohin)
-  - [Der Dijkstra-Algorithus](#der-dijkstra-algorithus)
+  - [Der Dijkstra-Algorithmus](#der-dijkstra-algorithmus)
   - [Was steck dahinter](#was-steck-dahinter)
     - [Runtime](#runtime)
     - [Komplexität](#komplexität)
   - [Das ist Informatik: Probleme lösen](#das-ist-informatik-probleme-lösen)
     - [Lösungsschemen](#lösungsschemen)
-    - [Anwendung](#anwendung)
+    - [Lösungsschemen angewandt in Dijkstra](#lösungsschemen-angewandt-in-dijkstra)
+    - [Resümee](#resümee)
+- [Ordnung muss sein!](#ordnung-muss-sein)
+  - [Die Problemgröße](#die-problemgröße)
+  - [Das Prinzip „divide et impera“](#das-prinzip-divide-et-impera)
+  - [Selection-Sort](#selection-sort)
+  - [Bubble-Sort](#bubble-sort)
+  - [Elementaroperationen](#elementaroperationen)
 - [Notizen](#notizen)
 <!--toc:end-->
 
@@ -93,7 +100,7 @@ Struktogramm:
 
 ![Struktogramm für die Brute-Force-Methode, den kürzesten Weg zu finden](./img/1_sag_mir_wohin/stuktogramm-brute-force.png)
 
-### Anwendung
+### Lösungsschemen angewandt in Dijkstra
 
 Dijkstra nutzt recht uneingeschränkt die Breitensuche und erkundet den Graphen daher ohne Bevorzugung einer Richtung.
 
@@ -125,6 +132,54 @@ Es wird sofort offensichtlich, an welchen Stellen die Programmierer auch die Imp
 
 ![A-Stern-Algorithmus-als-Blockcode](./img/1_sag_mir_wohin/a-stern-algo.png)
 
+Unser Wunsch nach besserer (Ausführungs-)Geschwindigkeit ist mit A-Stern erfüllt worden:
+Statt in alle Richtungen gleichermaßen zu suchen, bevorzugt der neue Ansatz die Richtung zum Ziel.
+
+### Resümee
+
+Anhand der Lösung des Wegeproblems haben wir wichtige Werkzeuge der Erkenntnisgewinnung in der Informatik kennen gelernt.
+Abstraktion und Modellbildung - das gezielte Weglassen irrelevanter Information und die übersichtliche Darstellung
+der relevanten - sind die wichtigsten Voraussetzungen, um eine Aufgabe zu lösen.
+Wenn man durch Intuition, Analogiebildung oder Verwendung bekannter Algorithmen einen Ansatz gefunden hat,
+hilft es wiederum, diesen formal zu beschreiben,
+um durch Analyse herauszufinden, ob er für die zur Verfügung stehenden Ressourcen wie Rechenzeit und Speicherplatz auch funktioniert.
+
+# Ordnung muss sein!
+
+## Die Problemgröße
+
+Ein wichtiger Vorgang bei der Lösung von Aufgaben aus der Informationstechnik ist das Bestimmen der sogenannten Problemgröße.
+Sie stellt ein Maß dar, wie schwierig bzw. umfangreich die Aufgabe bzw. das Problem ist.
+Daher hängt von der Problemgröße entscheidend der zu leistende Aufwand ab.
+
+## Das Prinzip „divide et impera“
+
+Sehr häufig hat man im Leben Probleme zu lösen, die zu unüberschaubar und groß sind, um sie in einem Ansatz zu lösen.
+Vielmehr teilen wir das Gesamtproblem auf in mehrere, handhabbare Stücke, die wir lösen.
+Die Teillösungen werden danach nur noch zusammengefasst.
+
+Dieses Prinzip wird auch in der Informatik sehr stark verwendet:
+Ein Programm zerlegt die gestellte Aufgabe zunächst in mehrere kleinere Einheiten,
+genannt Teilprobleme (divide = teile), und weist danach andere Programme an,
+diese zu lösen (impera = herrsche, befehlige).
+Dabei ist sehr wichtig, dass die Teilprobleme unabhängig voneinander gelöst werden können,
+denn sonst müssten die Programme miteinander kommunizieren,
+unter Umständen auf Lösungen voneinander warten, was den Aufwand wiederum sehr erhöht.
+
+## Selection-Sort
+
+![](./img/2_ordnung_muss_sein/selection-sort.png)
+
+## Bubble-Sort
+
+![](./img/2_ordnung_muss_sein/bubble-sort.png)
+
+## Elementaroperationen
+
+Operationen bzw. Arbeitsschritte, die wir bei der Bestimmung der Laufzeit eines Algorithmus für wichtig bzw. zeitkritisch erachten.
+Welche Operationen hier ausgewählt werden, ist nicht global definiert, sondern vom jeweiligen Anwendungsfall abhängig.
+Oft handelt es sich um Speichervorgänge (Lesen und Schreiben im Speicher).
+
 # Notizen
 
-Lesezeichen: S.42 Buch / 53 Digital
+Lesezeichen: Digital 74/ Buch 63
