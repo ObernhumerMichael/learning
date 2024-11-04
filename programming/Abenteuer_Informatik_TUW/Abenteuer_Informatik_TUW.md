@@ -10,7 +10,7 @@ footnotes-pretty: true
 
 <!--toc:start-->
 
-- [1. Sag mir wohin](#1-sag-mir-wohin)
+- [Sag mir wohin](#sag-mir-wohin)
   - [Der Dijkstra-Algorithmus](#der-dijkstra-algorithmus)
   - [Was steck dahinter](#was-steck-dahinter)
     - [Runtime](#runtime)
@@ -25,10 +25,12 @@ footnotes-pretty: true
   - [Selection-Sort](#selection-sort)
   - [Bubble-Sort](#bubble-sort)
   - [Elementaroperationen](#elementaroperationen)
+  - [Die Aufwandsabschätzung](#die-aufwandsabschätzung)
+  - [nlogn oder die Kür des Sortierens](#nlogn-oder-die-kür-des-sortierens)
 - [Notizen](#notizen)
 <!--toc:end-->
 
-# 1. Sag mir wohin
+# Sag mir wohin
 
 ## Der Dijkstra-Algorithmus
 
@@ -180,6 +182,33 @@ Operationen bzw. Arbeitsschritte, die wir bei der Bestimmung der Laufzeit eines 
 Welche Operationen hier ausgewählt werden, ist nicht global definiert, sondern vom jeweiligen Anwendungsfall abhängig.
 Oft handelt es sich um Speichervorgänge (Lesen und Schreiben im Speicher).
 
+## Die Aufwandsabschätzung
+
+Mit der Aufwandsabschätzung wird in der Informatik oft die Qualität von Algorithmen bestimmt.
+Diese Abschätzung gibt an, wie stark die notwendige Rechenzeit in Bezug zur Problemgröße anwächst.
+Konstante Faktoren werden hier nicht berücksichtigt.
+Auf diese Weise kann für kleine Problemgrößen die tatsächliche Rechenzeit eines „schlechteren“ Algorithmus unter der des besseren liegen.
+
+## nlogn oder die Kür des Sortierens
+
+**Tournament sort**
+
+![](./img/2_ordnung_muss_sein/tournament_sort/tournament_sort_1.png)
+![](./img/2_ordnung_muss_sein/tournament_sort/tournament_sort_2.png)
+![](./img/2_ordnung_muss_sein/tournament_sort/tournament_sort_3.png)
+![](./img/2_ordnung_muss_sein/tournament_sort/tournament_sort_4.png)
+![](./img/2_ordnung_muss_sein/tournament_sort/tournament_sort_5.png)
+![](./img/2_ordnung_muss_sein/tournament_sort/tournament_sort_6.png)
+![](./img/2_ordnung_muss_sein/tournament_sort/tournament_sort_7.png)
+![](./img/2_ordnung_muss_sein/tournament_sort/tournament_sort_8.png)
+
+Auf der untersten Ebene im gelben Bereich befinden sich $n$ Felder mit den unsortierten Karten.
+Auf der untersten K.-o.-Ebene sind es halb so viele, da je eine von zwei Karten gewinnt.
+Es folgen wiederum halb so viele, also ein Viertel usw., bis nur noch ein Feld, das Siegerfeld, in der obersten Ebene steht.
+
+Insgesamt gibt es also $\frac{n}{2}+\frac{n}{4}+\frac{n}{8}+...+1$ Felder auf den Siegerebenen.
+Einer mathematischen Rechenregel nach ergibt diese sogenannte geometrische Reihe ungefähr wieder $n$.
+
 # Notizen
 
-Lesezeichen: Digital 74/ Buch 63
+Lesezeichen: Digital 83/ Buch 72
