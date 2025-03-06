@@ -45,3 +45,27 @@ footnotes-pretty: true
 - One of the best habits a learner can instill in oneself is regular selfquizzing to recalibrate ones understanding of what one does and does not know.
 
 # To Learn, Retrieve
+
+- Reflection can involve several cognitive activities that lead to stronger learning:
+  retrieving knowledge and earlier training from memory, connecting these to new experiences,
+  and visualizing and mentally rehearsing what you might do differently next time.
+- Retrieval makes learning stick far better than reexposure to the original material does.
+- To be most effective, retrieval must be repeated again and again, in spaced out sessions so that the recall,
+  rather than becoming a mindless recitation, requires some cognitive effort.
+- Students who take practice tests have a better grasp of their progress, spot gaps and misconceptions.
+  Giving students corrective feedback after tests keeps them from incorrectly retaining material they have misunderstood and produces better learning of the correct answers.
+
+# Mix Up Your Practice
+
+- The mixing of problem types, which boosted final test performance by a remarkable 215 percent, actually impeded perfomance during initial learning.
+- Placing too much emphasis on variety runs the risk of underemphasizing repeated retrieval practice on the basics.
+- Daily reflection, as a form of spaced retrieval practice, is probably just as critical in the realworld as quizzing and testing is in school.
+- Scientists call the heightened performance during the acquisition phase of a skill "momentary strength" and distinguish it from "underlying habit strength."
+  The very techniques that build habit strength, like spacing, interleaving, and variation, slow visible acquisition and fail to deliver the improvement during practice that helps to motivate and reinforce our efforts.
+- The simple act of spacing out study and practice in installments and allowing time to elapse between them makes both the learning and the memory stronger, in effect building habit strength.
+  - The interval should be big enough so that practice doesn’t become a mindless repetition.
+  - At a minimum, enough time so that a little forgetting has set in.
+  - Sleep seems to play a large role in memory consolidation, so practice with at least a day in between sessions is good.
+- Something as simple as a deck of flashcards can provide an example of spacing.
+- The better your mastery, the less frequent the practice, but if it’s important to retain, it will never disappear completely from your practices.
+  - Beware of the familiarity trap: the feeling that you know something and no longer need to practice it.
