@@ -60,6 +60,10 @@ footnotes-pretty: true
 - The mixing of problem types, which boosted final test performance by a remarkable 215 percent, actually impeded perfomance during initial learning.
 - Placing too much emphasis on variety runs the risk of underemphasizing repeated retrieval practice on the basics.
 - Daily reflection, as a form of spaced retrieval practice, is probably just as critical in the realworld as quizzing and testing is in school.
+  - What happened?
+  - What did I do?
+  - How did it work out?
+  - enhanced with elaboration (What would I do differently next time?).
 - Scientists call the heightened performance during the acquisition phase of a skill "momentary strength" and distinguish it from "underlying habit strength."
   The very techniques that build habit strength, like spacing, interleaving, and variation, slow visible acquisition and fail to deliver the improvement during practice that helps to motivate and reinforce our efforts.
 - The simple act of spacing out study and practice in installments and allowing time to elapse between them makes both the learning and the memory stronger, in effect building habit strength.
@@ -69,3 +73,41 @@ footnotes-pretty: true
 - Something as simple as a deck of flashcards can provide an example of spacing.
 - The better your mastery, the less frequent the practice, but if it’s important to retain, it will never disappear completely from your practices.
   - Beware of the familiarity trap: the feeling that you know something and no longer need to practice it.
+- Interleaving two or more subjects during practice also provides a form of spacing.
+  - Interleaving can also help you develop your ability to discriminate later between different kinds of problems and select the right tool from your growing toolkit of solutions.
+  - In interleaving, you don’t move from a complete practice set of one topic to go to another.
+    You switch before each practice is complete.
+- Something the researchers call “blocked practice” is easily mistaken for varied practice.
+  It would be like always practicing flashcards in the same order.
+  You need to shuffle your flashcards.
+
+# Embrace Difficulties
+
+- Shortterm impediments that make for stronger learning have come to be called _desirable difficulties_.
+- How readily you can recall knowledge from your internal archives is determined by context, by recent use,
+  and by the number and vividness of cues that you have linked to the knowledge and can call on to help bring it forth.
+- It is a critical point that as you learn new things, you don’t lose from long-term memory most of what you have learned well in life; rather, through disuse or the reassignment of cues, you forget it in the sense that you’re unable to call it up easily.
+  - Context can unleash memories, as when the right key works to open an old lock.
+- The easier knowledge or a skill is for you to retrieve, the less your retrieval practice will benefit your retention of it.
+- In all of these examples, the change from normal presentation introduces a difficulty - disruption of fluency - that makes the learner work harder to construct an interpretation that makes sense.
+  The added effort increases comprehension and learning.
+- In testing, being required to supply an answer rather than select from multiple choice options often provides stronger learning benefits.
+  Having to write a short essay makes them stronger still.
+
+## How Learning Occurs
+
+**Encoding:**
+The brain converts your perceptions into chemical and electrical changes that form a mental representation of the patterns you’ve observed.
+Think of notes jotted or sketched on a scratchpad, our shortterm memory.
+
+**Consolidation:**
+The process of strengthening these mental representations for longterm memory is called consolidation.
+Sleep seems to help memory consolidation, but in any case, consolidation and transition of learning to longterm storage occurs over a period of time.
+Consolidation helps or ga nize and solidify learning, and, notably, so does retrieval after a lapse of some time,
+because the act of retrieving a memory from longterm storage can both strengthen the memory traces and at the same time make them modifiable again, enabling them, for example, to connect to more recent learning.
+This process is called reconsolidation.
+This is how retrieval practice modifies and strengthens learning.
+
+**Retrieval:**
+We must associate the material with a diverse set of cues that will make us adept at recalling the knowledge later.
+Knowledge, skills, and experiences that are vivid and hold significance, and those that are periodically practiced, stay with us.
