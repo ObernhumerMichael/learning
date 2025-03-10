@@ -93,21 +93,42 @@ footnotes-pretty: true
   The added effort increases comprehension and learning.
 - In testing, being required to supply an answer rather than select from multiple choice options often provides stronger learning benefits.
   Having to write a short essay makes them stronger still.
+- "write to learn": students reflect on a recent class topic in a brief writing assignment, where they may express the main ideas in their own words and relate them to other concepts covered in class, or perhaps outside class.
+- Not all difficulties in learning are desirable ones.
+  Anxiety while taking a test seems to represent an undesirable difficulty.
+  - Intuitively it makes sense that difficulties that don’t strengthen the skills you will need,
+    or the kinds of challenges you are likely to encounter in the real-world application of your learning, are not desirable
 
 ## How Learning Occurs
 
-**Encoding:**
-The brain converts your perceptions into chemical and electrical changes that form a mental representation of the patterns you’ve observed.
-Think of notes jotted or sketched on a scratchpad, our shortterm memory.
+Learning is at least a three-step process:
+initial **encoding** of information is held in short-term working memory before being consolidated into a cohesive representation of knowledge in long-term memory.
+**Consolidation** reorganizes and stabilizes memory traces, gives them meaning, and makes connections to past experiences and to other knowledge already stored in long-term memory.
+**Retrieval** updates learning and enables you to apply it when you need it.
 
-**Consolidation:**
-The process of strengthening these mental representations for longterm memory is called consolidation.
-Sleep seems to help memory consolidation, but in any case, consolidation and transition of learning to longterm storage occurs over a period of time.
-Consolidation helps or ga nize and solidify learning, and, notably, so does retrieval after a lapse of some time,
-because the act of retrieving a memory from longterm storage can both strengthen the memory traces and at the same time make them modifiable again, enabling them, for example, to connect to more recent learning.
-This process is called reconsolidation.
-This is how retrieval practice modifies and strengthens learning.
+# Avoid Illusions of Knowing
 
-**Retrieval:**
-We must associate the material with a diverse set of cues that will make us adept at recalling the knowledge later.
-Knowledge, skills, and experiences that are vivid and hold significance, and those that are periodically practiced, stay with us.
+- System 1 is automatic and deeply influential, but it is susceptible to illusion,
+  and you depend on System 2 to help you manage yourself: by checking your impulses, planning ahead,
+  identifying choices, thinking through their implications, and staying in charge of your actions.
+- Imagination inflation refers to the tendency of people who, when asked to imagine an event vividly,
+  will sometimes begin to believe, when asked about it later, that the event actually occurred
+- Another type of memory illusion is one caused by suggestion, which may arise simply in the way a question is asked.
+- Interference from other events can distort memory.
+- Accounts that sound familiar can create the feeling of knowing and be mistaken for true.
+  - Even a big lie told repeatedly can come to be accepted as truth.
+- Confidence in a memory is not a reliable indication of its accuracy.
+  - Respondents' most emotional memories of their personal details at the time they learned of the attacks are also those of which they are most confident and, paradoxically, the ones that have most changed over the years relative to other memories about 9/11.
+- The better you know something, the more difficult it becomes to teach it.
+  - As you get more expert in complex areas, your models in those areas grow more complex,
+    and the component steps that compose them fade into the background of memory (the curse of knowledge).
+- The failure to recognize when your solution doesn’t fit the problem is another form of faulty self-observation that can lead you into trouble.
+- Incompetent people lack the skills to improve because they are unable to distinguish between incompetence and competence.
+- The answer to illusion and misjudgment is to replace subjective experience as the basis for decisions with a set of objective gauges outside ourselves, so that our judgment squares with the real world around us.
+- Don’t make the mistake of dropping material from your testing regime once you’ve gotten it correct a couple of times.
+- Pay attention to the cues you’re using to judge what you have learned.
+  - Ease of retrieval after a delay, however, is a good indicator of learning.
+  - How ably you can explain a text is an excellent cue for judging comprehension.
+- In many fields, the practice of peer review serves as an external gauge, providing feedback on one’s performance.
+
+# Get Beyond Learning Styles
