@@ -132,3 +132,166 @@ initial **encoding** of information is held in short-term working memory before 
 - In many fields, the practice of peer review serves as an external gauge, providing feedback on one’s performance.
 
 # Get Beyond Learning Styles
+
+- People who as a matter of habit extract underlying principles or rules from new experiences are more successful learners than those who take their experiences at face value, failing to infer lessons that can be applied later in similar situations.
+- Dynamic testing has three steps.
+  1. a test of some kind - perhaps an experience or a paper exam - shows me where I come up short in knowledge or a skill.
+  2. I dedicate myself to becoming more competent, using reflection, practice, spacing, and the other techniques of effective learning.
+  3. I test myself again, paying attention to what works better now but also, and especially, to where I still need more work.
+- Knowledge is not knowhow until you understand the underlying principles at work and can fit them together into a structure larger than the sum of its parts.
+  Knowhow is learning that enables you to go do.
+- Be the one in charge.
+  - You have to suit up, get out the door, and find what you’re after.
+    Mastery, especially of complex ideas, skills, and pro cesses, is a quest.
+- Embrace the notion of successful intelligence.
+- Tap all of your "intelligences" to master the knowledge or skill you want to possess.
+  Describe what you want to know, do, or accomplish.
+  Then list the competencies required, what you need to learn, and where you can find the knowledge or skill.
+- Adopt active learning strategies like retrieval practice, spacing, and interleaving.
+- Don’t rely on what feels best: use quizzing, peer review, and the other tools described to make sure your judgment of what you know and can do is accurate, and that your strategies are moving you toward your goals.
+- Distill the underlying principles; build the structure.
+- If you’re an example learner, study examples two at a time or more, rather than one by one, asking yourself in what ways they are alike and different.
+  - Are the differences such that they require different solutions, or are the similarities such that they respond to a common solution?
+  - Break your idea or desired competency down into its component parts.
+- If you think you are a low structure-builder or an example learner trying to learn new material, pause periodically and ask what the central ideas are, what the rules are.
+  - Describe each idea and recall the related points.
+  - Which are the big ideas, and which are supporting concepts or nuances?
+  - If you were to test yourself on the main ideas, how would you describe them?
+  - What kind of scaffold or framework can you imagine that holds these central ideas together?
+- By abstracting the underlying rules and piecing them into a structure, you go for more than knowledge.
+  You go for knowhow.
+  And that kind of mastery will put you ahead.
+
+# Increase Your Abilities
+
+- We have been raised to think that the brain is hardwired and our intellectual potential is more or less set from birth.
+  We now know otherwise
+- The brain is not a muscle, so strengthening one skill does not automatically strengthen others.
+- There are strategies that can serve as cognitive "multipliers" to amp up the performance of the intelligence I’ve already got.
+  Here are three: embracing a growth mindset, practicing like an expert, and constructing memory cues.
+
+## Growth Mindset
+
+- Your level of intellectual ability is not fixed but rests to a large degree in your own hands.
+- Dweck came to see that some students aim at per for mance goals, while others strive toward learning goals.
+  In the first case, you’re working to validate your ability.
+  In the second, you’re working to acquire new knowledge or skills.
+  People with performance goals unconsciously limit their potential.
+  If your focus is on validating or showing off your ability, you pick challenges you are confident you can meet.
+  You want to look smart, so you do the same stunt over and over again.
+  But if your goal is to increase your ability, you pick ever-increasing challenges, and you interpret setbacks as useful information that helps you to sharpen your focus, get more creative, and work harder
+- Emphasizing effort gives a child a rare variable they can control.
+  But emphasizing natural intelligence takes it out of a child’s control, and it provides no good recipe for responding to a failure.
+
+## Deliberate Practice
+
+- Doing something repeatedly might be considered practice, deliberate practice is a different animal:
+  it’s goal directed, often solitary, and consists of repeated striving to reach beyond your current level of performance
+- Deliberate practice usually isn’t enjoyable, and for most learners it requires a coach or trainer who can help identify areas of performance that need to be improved, help focus attention on specific aspects, and provide feedback to keep perception and judgment accurate.
+- Ten thousand hours or ten years of practice was the average time the people Ericsson studied had invested to become expert in their fields, and the best among them had spent the larger percentage of those hours in solitary, deliberate practice.
+
+## Memory Cues
+
+- Mnemonic devices, are mental tools to help hold material in memory, cued for ready recall.
+- A memory palace is a more complex type of mnemonic device that is useful for organizing and holding larger volumes of material in memory.
+  It’s based on the method of loci, which involves associating mental images with a series of physical locations to help cue memories.
+  For example, you imagine yourself within a space that is very familiar to you, like your home,
+  and then you associate prominent features of the space, like your easy chair, with a visual image of something you want to remember.
+  (When you think of your easy chair you may picture a limber yogi sitting there, to remind you to renew your yoga lessons.)
+- Images cure memories.
+- Rhyme schemes can also serve as mnemonic tools.
+  The peg method is a rhyme scheme for remembering lists.
+  Each number from 1 to 20 is paired with a rhyming, concrete image:
+  1 is bun, 2 is shoe, 3 is tree, 4 is store, 5 is hive, 6 is tricks, 7 is heaven, 8 is gate, 9 is twine, 10 is pen.
+  After 10 you add penny- one and start over with three- syllable cue words: 11 is penny- one, setting sun; 12 is penny- two, airplane glue;
+- A song that you know well can provide a mnemonic structure, linking the lyrics in each musical phrase to an image that will cue retrieval of the desired memory.
+- The versatility of mnemonic devices is almost endless.
+  What they hold in common is a structure of some kind - number scheme, travel route, floor plan, song, poem, aphorism, acronym - that is deeply familiar and whose elements can be easily linked to the target information to be remembered.
+- She tackles the dieting essay first.
+  Pret-a-Manger is Marlys’s memory palace for the safekeeping of what she has learned about the success and failure of dieting.
+  Through a prior visit there, she has become thoroughly familiar with its spaces and furnishings and populated them with characters that are very familiar and vivid in her imagination.
+  The names and actions of the characters now serve as cues to the dozen key points of her essay.
+  She enters the shop in her mind.
+  La Fern (the man-eating plant in “Little Shop of Horrors,” one of her favorite movies) is holding Marlys’s friend Herman captive, her vines wrapped tightly around him, restraining him from a large dish of mac and cheese that sits just beyond his reach.
+  Marlys opens her exam book and begins to write.
+  “Herman and Mack’s restraint theory suggests that attempting not to overeat may actually increase the probability of overeating.
+  That is, in restrained eaters, it is the disinhibition (loss of control) that is the cause of overeating...”
+- The value of mnemonics to raise intellectual abilities comes after mastery of new material,
+  as handy mental pockets for filing what they’ve learned, and linking the main ideas in each pocket to vivid memory cues so that they can readily bring them to mind.
+
+# Make It Stick
+
+## Practice Retrieving New Learning from Memory
+
+- "Retrieval practice" means self-quizzing.
+  Retrieving knowledge and skill from memory should become your primary study strategy in place of rereading.
+- When you read a text or study lecture notes, pause periodically to ask yourself questions like these, without looking in the text:
+  - What are the key ideas?
+  - What terms or ideas are new to me?
+  - How would I define them?
+  - How do the ideas relate to what I already know?
+- Set aside a little time every week throughout the semester to quiz yourself on the material in a course,
+  both the current week’s work and material covered in prior weeks.
+- After one or two reviews of a text, self-quizzing is far more potent for learning than additional rereading.
+- The familiarity with a text that is gained from rereading creates illusions of knowing, but these are not reliable indicators of mastery of the material.
+
+## Space Out Your Retrieval Practice
+
+- Spaced practice means studying information more than once but leaving considerable time between practice sessions.
+- Establish a schedule of self-quizzing that allows time to elapse between study sessions.
+  How much time?
+  It depends on the material.
+  If you are learning a set of names and faces, you will need to review them within a few minutes of your first encounter, because these associations are forgotten quickly.
+  New material in a text may need to be revisited within a day or so of your first encounter with it.
+  Then, perhaps not again for several days or a week.
+  When you are feeling more sure of your mastery of certain material, quiz yourself on it once a month.
+  Over the course of a semester, as you quiz yourself on new material, also reach back to retrieve prior material and ask yourself how that knowledge relates to what you have subsequently learned.
+- If you use flashcards, don’t stop quizzing yourself on the cards that you answer correctly a couple of times.
+  Continue to shuffle them into the deck until they’re well mastered.
+  Only then set them aside - but in a pile that you revisit periodically, perhaps monthly
+- Another way of spacing retrieval practice is to interleave the study of two or more topics, so that alternating between them requires that you continually refresh your mind on each topic as you return to it.
+
+## Interleave the Study of Different Problem Types
+
+- If you’re trying to learn mathematical formulas, study more than one type at a time,
+  so that you are alternating between different problems that call for different solutions.
+- When you structure your study regimen, once you reach the point where you understand a new problem type and its solution but your grasp of it is still rudimentary,
+  scatter this problem type throughout your practice sequence so that you are alternately quizzing yourself on various problem types and retrieving the appropriate solutions for each.
+- Mixing up problem types and specimens improves your ability to discriminate between types,
+  identify the unifying characteristics within a type, and improves your success in a later test or in real-world
+  settings where you must discern the kind of problem you’re trying to solve in order to apply the correct solution.
+
+## Other Effective Study Strategies
+
+### ELABORATION
+
+- Elaboration improves your mastery of new material and multiplies the mental cues available to you for later recall and application of it.
+- Elaboration is the process of finding additional layers of meaning in new material.
+- Examples include relating the material to what you already know, explaining it to somebody else in your own words, or explaining how it relates to your life outside of class.
+- A powerful form of elaboration is to discover a metaphoror visual image for the new material.
+- For example, to better grasp the principles of angular momentum in physics, visualize how a figure skater’s rotation speeds up as her arms are drawn into her body.
+- The more that you can elaborate on how new learning relates to what you already know,
+  the stronger your grasp of the new learning will be, and the more connections you create to remember it later.
+
+### GENERATION
+
+- Generation has the effect of making the mind more receptive to new learning.
+- Generation is an attempt to answer a question or solve a problem before being shown the answer or the solution.
+- You can practice generation when reading new class material by trying to explain beforehand the key ideas you expect to find in the material and how you expect they will relate to your prior knowledge.
+  Then read the material to see if you were correct.
+- If you’re in a science or math course learning different types of solutions for different types of problems,
+  try to solve the problems before you get to class.
+
+### REFLECTION
+
+- Reflection is a combination of retrieval practice and elaboration that adds layers to learning and strengthens skills.
+- Reflection is the act of taking a few minutes to review what has been learned in a recent class or experience and asking yourself questions.
+  - What went well?
+  - What could have gone better?
+  - What other knowledge or experiences does it remind you of?
+  - What might you need to learn for better mastery?
+  - What strategies might you use the next time to get better results?
+
+### Mnemonic Devices
+
+see [Memory Cues](#memory-cues).
