@@ -22,9 +22,10 @@ In here are just the things that are way to tedious to copy down on paper or for
 
 # Navigation
 
-- [Introduction to Algorithms](./programming/Introduction_to_Algorithms/notes.md)
-- [Design Patterns: Elements of Reusable Object-Oriented Software](./programming/Design_Patterns_Elements_of_Reusable_Object_Oriented/Design_Patterns_Elements_of_Reusable_Object_Oriented.md)
-- [Abenteuer Informatik TUW](./programming/Abenteuer_Informatik_TUW/Abenteuer_Informatik_TUW.md)
+- [Introduction to Algorithms](./books/Introduction_to_Algorithms/notes.md) (hiatus)
+- [Design Patterns: Elements of Reusable Object-Oriented Software](./books/Design_Patterns_Elements_of_Reusable_Object_Oriented/Design_Patterns_Elements_of_Reusable_Object_Oriented.md) (hiatus)
+- [Abenteuer Informatik TUW](./books/Abenteuer_Informatik_TUW/Abenteuer_Informatik_TUW.md) (hiatus)
+- [Make it Stick](./books/make_it_stick/notes.md) (completed)
 - [Cypersecurity](./cypersecurity)
   - [Basics](./cypersecurity/Grundlagen/)
   - [Algorithms](./cypersecurity/Algorithmen/)
