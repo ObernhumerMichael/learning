@@ -74,3 +74,27 @@ footnotes-pretty: true
 - We are often tempted to encourage others with insincere praise.
   In this we treat them like children - while failing to help them prepare for encounters with those who will judge them like adults.
 - If we have a history of being honest, our praise and encouragement will actually mean something.
+
+# Secrets
+
+- A commitment to honesty does not necessarily require that we disclose facts about ourselves that we would prefer to keep private.
+- However, it is worth noting that many secrets - especially those we are asked to keep for others - can put us in a position where we will be forced to choose between lying and revealing privileged information.
+
+# Lies in Extremis
+
+- A total prohibition against lying is ethically incoherent in anyone but a true pacifist.
+- If you think that it can ever be appropriate to injure or kill a person in self-defense, or in defense of another, it makes no sense to rule out lying in the same circumstances.
+- For most of us, such circumstances arise very rarely in life, if ever.
+  And even when they seem to, it is often possible to worry that lying was the easy (and less than truly ethical) way out.
+- The murderer is standing at your door and wants to know whether you have seen his intended victim.
+  Insdeat of lying, the truth in this case could well be,
+  "I wouldn’t tell you even if I knew.
+  And if you take another step, I’ll put a bullet in your brain."
+- It is far more common to find ourselves in situations in which, though we are tempted to lie,
+  honesty will lead us to form connections with people who might otherwise have been adversaries.
+
+# Mental Accounting
+
+- Lying comes at a psychological cost for the rest of us.
+- Lies beget other lies.
+- Unlike statements of fact, which require no further work on our part, lies must be continually protected from collisions with reality.
