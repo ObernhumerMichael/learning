@@ -26,7 +26,7 @@ In here are just the things that are way to tedious to copy down on paper or for
 - [Design Patterns: Elements of Reusable Object-Oriented Software](./books/Design_Patterns_Elements_of_Reusable_Object_Oriented/Design_Patterns_Elements_of_Reusable_Object_Oriented.md) (hiatus)
 - [Abenteuer Informatik TUW](./books/Abenteuer_Informatik_TUW/Abenteuer_Informatik_TUW.md) (hiatus)
 - [Make it Stick](./books/make_it_stick/notes.md) (completed)
-- [Lying](./books/Lying/notes.md) (work in progress)
+- [Lying](./books/Lying/notes.md) (completed)
 - [Cypersecurity](./cypersecurity)
   - [Basics](./cypersecurity/Grundlagen/)
   - [Algorithms](./cypersecurity/Algorithmen/)

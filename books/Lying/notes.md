@@ -98,3 +98,27 @@ footnotes-pretty: true
 - Lying comes at a psychological cost for the rest of us.
 - Lies beget other lies.
 - Unlike statements of fact, which require no further work on our part, lies must be continually protected from collisions with reality.
+
+# Integrity
+
+- What does it mean to have integrity?
+  - One criterion is to avoid behavior that readily leads to shame or remorse.
+  - To truly have integrity, we must not feel the need to lie about our personal lives.
+  - Vulnerability comes in pretending to be someone you are not.
+
+# Big Lies
+
+- Big lies have led many people to reflexively distrust those in positions of authority.
+  As a consequence, it is now impossible to say anything of substance on climate change, human nutrition,...
+  without a significant percentage of one’s audience expressing paralyzing doubts about even the most reputable sources of information.
+- We seem to be predisposed to remember statements as true even after they have been disconfirmed.
+- The need for state secrets is obvious.
+  However, the need for governments to deceive their own people seems to me to be exiguous to the point of nonexistence - an ethical mirage.
+
+# Conclusion
+
+- Lying is, almost by definition, a refusal to cooperate with others.
+- The lies of the powerful lead us to distrust governments and corporations.
+- The lies of the weak make us callous toward the suffering of others.
+- The lies of conspiracy theorists raise doubts about the honesty of whistleblowers, even when they are telling the truth.
+- Lies are the social equivalent of toxic waste — everyone is potentially harmed by their spread.
