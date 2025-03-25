@@ -9,6 +9,7 @@
    - The seminar, led by Professor Ronald A. Howard, deeply impacted the author by challenging the notion that lying is sometimes justified. It made him realize that even small lies have consequences and that honesty is a more reliable and ethical way to navigate life.
 
 3. **Why does the author argue that even small lies can have a significant impact?**
+
    - Small lies erode trust and create a foundation for more lies. Even seemingly harmless deceptions can lead to misunderstandings, damaged relationships, and a loss of personal integrity.
 
 # What is a Lie?
@@ -22,6 +23,7 @@
    - The author defines lying as "intentionally misleading others when they expect honest communication." This means that even if a statement is technically true, it can still be deceptive and function as a lie.
 
 6. **Why does the author emphasize the difference between truth and truthfulness?**
+
    - A person can be truthful while still being mistaken. Truthfulness means accurately representing one’s beliefs, but it does not guarantee that those beliefs are factually correct.
 
 # White Lies
@@ -35,6 +37,7 @@
    - The mother tells a small lie about where she got a gift, but her child immediately exposes the truth. This incident, though trivial, highlights how lying—even in minor situations—can create embarrassment and weaken trust.
 
 9. **How might lying to spare someone's feelings ultimately be detrimental?**
+
    - Lying to spare feelings can prevent people from making necessary changes in their lives. For example, falsely telling someone they look good in an unflattering outfit might stop them from making choices that would improve their self-confidence.
 
 # Trust
