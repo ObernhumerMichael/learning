@@ -39,3 +39,35 @@ God/religion are concepts that help to maintain order and cooperation between a 
 Religion fostered group membership, but what will fill the gap with the increasing disbelief remains to see.
 
 # Pride
+
+## Notes
+
+- Pride can be a positive as it helps use conquering our fears and stay motivated in the face of adversaries.
+- The problem are the extremes.
+- There is a big difference between feeling proud and letting it show to the outside world.
+- The self-obsession of pride prevents meaningful relationships with others.
+- The sin of pride is formed when a person beliefs they are superior to all others.
+  - =narcissism
+- vanity is one of 7 contributing factors
+  - it has risen dramatically in recent years (e.g. plastic surgery, social media)
+- Narcissists are self-absorbed, belligerently indifferent to other people’s opinions or best interests, and fully prepared to manipulate others to get what they want.
+- The same brain areas that light up when we feel physical pain also become activated when we feel social pain.
+  - Narcissists seem to feel the social pain of rejection more powerfully than other people.
+- Neglectful- & Helicopter parents prevent the child from forming a healthy independent sense of self.
+  - There is also trouble when feedback is framed in absolute terms that sound much more permanent: "You are such a naughty child"
+
+## Cues / Questions / Keywords
+
+- Why do we need pride?
+- What are the consequences of the sin of pride?
+- When is pride a sin?
+- How to foster narcissim through parenting?
+- How does the internet nurture narcissism?
+
+## Summary
+
+Pride in moderate amounts is a virtue otherwise it is a vice.
+Narcissism prevents meaningful relationships with others through a superiority belief.
+Parenting has a big impact on the development of narcissism.
+
+# Gluttony
