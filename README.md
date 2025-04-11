@@ -27,6 +27,7 @@ In here are just the things that are way to tedious to copy down on paper or for
 - [Abenteuer Informatik TUW](./books/Abenteuer_Informatik_TUW/Abenteuer_Informatik_TUW.md) (hiatus)
 - [Make it Stick](./books/make_it_stick/notes.md) (completed)
 - [Lying](./books/Lying/notes.md) (completed)
+- [The Science of Sin](./books/the_science_of_sin/notes.md) (in progress)
 - [Cypersecurity](./cypersecurity)
   - [Basics](./cypersecurity/Grundlagen/)
   - [Algorithms](./cypersecurity/Algorithmen/)
