@@ -80,11 +80,27 @@ Parenting has a big impact on the development of narcissism.
 - Gluttony is different from the other deadly sins in that the toll it takes on the body, when practised daily, is usually impossible to conceal from the outside world
 - The fealing of satiety arrives only after about 20 - 30min.
 - We feel lethargic after a large meal partly because our stomachs are hogging all the blood and partly because hormones are released into the bloodstream.
+- The stress hormone cortisol does two things to our brain to facilitate the total demolition of self-control.
+  1. it ramps up sensitivity of the reward pathway to the delicious-looking and appetizing aroma of high-calorie foods.
+  2. it weakens lines of communication between the reward pathway and brain areas responsible for reining in the urge to consume those scrumptious temptations.
+- The quality of the previous night’s sleep has a powerful impact on appetite regulation.
+- Avoid eating something a few hours before going to bed to improve sleep quality.
+- obesity accelerates the rate at which the brain ages
+- Obesity gradually alters the hypothalamus, which regulates appetite, increasing the drive to seek out food.
+  This change is irreversible, regardless of exercise or diet.
+- The environment plays a significant role for obese families.
 
 ## Cues / Questions / Keywords
 
 - psychological motivations
 - What is gluttony?
 - Why should one eat food slowly?
+- What 2 things does the stress hormone cortisol do to facilitate a loss of self-control?
+- What has sleep to do with gluttony?
+- What does obesity change in the brain?
 
 ## Summary
+
+Gluttony brings destruction onto one's body and causes life threatening health conditions.
+Key players are stress (cortisol) and sleep (quality).
+Obesity makes irreversible changes to the brain.

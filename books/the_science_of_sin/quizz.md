@@ -30,3 +30,19 @@
 1. How does the internet nurture narcissism?
    - it promots vanity which is a contributing factor of narcissism
    - e.g. through social media, realitiy TV, stars...
+
+# Gluttony
+
+1. What is gluttony?
+   - Gluttony refers specifically to gulping down food and/or drink in extremely large quantities.
+1. Why should one eat food slowly?
+   - The feeling of satiety arrives only after about 20-30 min.
+1. What 2 things does the stress hormone cortisol do to facilitate a loss of self-control?
+   - it ramps up sensitivity of the reward pathway to the delicious-looking and appetizing aroma of high-calorie foods.
+   - it weakens lines of communication between the reward pathway and brain areas responsible for reining in the urge to consume those scrumptious temptations.
+1. What has sleep to do with gluttony?
+   - The quality of the previous night’s sleep also has a powerful impact on appetite regulation.
+   - Avoid eating something a few hours before going to bed to improve sleep quality.
+1. What does obesity change in the brain?
+   - Obesity gradually alters the hypothalamus, which regulates appetite, increasing the drive to seek out food.
+   - This change is irreversible, regardless of exercise or diet.
