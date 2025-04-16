@@ -104,3 +104,22 @@ Parenting has a big impact on the development of narcissism.
 Gluttony brings destruction onto one's body and causes life threatening health conditions.
 Key players are stress (cortisol) and sleep (quality).
 Obesity makes irreversible changes to the brain.
+
+# Lust
+
+## Notes
+
+- We know statistically that a proportion of people in any given community will, find themselves more sexually attracted to children than adults.
+- There are significant differences in the white matter tracts of paedophile brains compared to non-paedophile ones.
+- white brain matter = information superhighways (150 m/s instead of normal 10 m/s)
+- The 'sexual response network' brain areas that govern healthy sexual responses in the rest of us seem to be hyperactive in the paedophile, even at rest.
+- The physiological component of female sexual arousal may be a reflex designed to protect the vaginal canal from damage.
+- During the fertile phase of the cycle, the attractiveness ratings the women gave for more masculine-looking faces, bodies and deeper-sounding voices increased slightly.
+- On the other hand, during the non-fertile weeks of the menstrual cycle, the attractiveness ratings for the more feminine male faces, bodies and voices increased slightly.
+
+## Cues / Questions / Keywords
+
+- How does the brain of a paedophile differ from a normal one?
+- How does the attractiveness ratings of men change in the different menstrual cycles?
+
+## Summary
