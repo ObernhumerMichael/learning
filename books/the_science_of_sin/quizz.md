@@ -46,3 +46,14 @@
 1. What does obesity change in the brain?
    - Obesity gradually alters the hypothalamus, which regulates appetite, increasing the drive to seek out food.
    - This change is irreversible, regardless of exercise or diet.
+
+# Lust
+
+1. What is white brain matter?
+   - white brain matter = information superhighways (150 m/s instead of normal 10 m/s)
+1. How does the brain of a paedophile differ from a normal one?
+   - There are significant differences in the white matter tracts of paedophile brains compared to non-paedophile ones.
+   - The 'sexual response network' brain areas that govern healthy sexual responses in the rest of us seem to be hyperactive in the paedophile, even at rest.
+1. How does the attractiveness ratings of men change in the different menstrual cycles?
+   - During the fertile phase of the cycle, the attractiveness ratings the women gave for more masculine-looking faces, bodies and deeper-sounding voices increased slightly.
+   - On the other hand, during the non-fertile weeks of the menstrual cycle, the attractiveness ratings for the more feminine male faces, bodies and voices increased slightly.

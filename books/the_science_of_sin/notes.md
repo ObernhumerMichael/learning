@@ -116,10 +116,17 @@ Obesity makes irreversible changes to the brain.
 - The physiological component of female sexual arousal may be a reflex designed to protect the vaginal canal from damage.
 - During the fertile phase of the cycle, the attractiveness ratings the women gave for more masculine-looking faces, bodies and deeper-sounding voices increased slightly.
 - On the other hand, during the non-fertile weeks of the menstrual cycle, the attractiveness ratings for the more feminine male faces, bodies and voices increased slightly.
+- Despite being tightly interwoven, the three systems of lust, romantic love and long-term commitment can nonetheless operate relatively independently.
+  - durations: lust:minutes, romantic love: 8-18 months, long-term commitment: years
+- The sexual arousal one feels may be involuntary and beyond ones control.
+  Choosing to act on that sexual arousal is another matter entirely.
+- it is suspected that a higher level of dopamin increases the sex drive
 
 ## Cues / Questions / Keywords
 
+- What is white brain matter?
 - How does the brain of a paedophile differ from a normal one?
 - How does the attractiveness ratings of men change in the different menstrual cycles?
+- lust, romantic love and long-term commitment
 
 ## Summary
