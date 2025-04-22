@@ -34,6 +34,7 @@ In here are just the things that are way to tedious to copy down on paper or for
   - [Attack vectors](./cypersecurity/Angriffsvektoren/)
   - [Methods](./cypersecurity/Methoden/)
   - [Processes](./cypersecurity/Prozesse/)
+- [Hitchhiker's Guide](./other/hitchhikers-guide/notes.md)
 
 # Development
 
