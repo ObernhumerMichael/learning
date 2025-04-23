@@ -1,3 +1,13 @@
+---
+title: "Hitchhiker's Guide"
+subtitle: "A summary and action guide"
+author: [Michael Obernhumer]
+date: \the\day.\the\month.\the\year
+titlepage: true
+titlepage-background: "../../template/background10.pdf"
+footnotes-pretty: true
+---
+
 # Introduction
 
 This is a summarized checklist and to-do list aimed at increasing privacy and anonymity on the internet.
@@ -11,8 +21,8 @@ Keep in mind that none of these methods are foolproof, and each comes with poten
 
 ### Your IP address
 
-Your IP address is easily accessible and can reveal identifying information about you. 
-To protect your privacy, it's important to conceal or obfuscate your origin IP address — the one that can be linked directly to your identity. 
+Your IP address is easily accessible and can reveal identifying information about you.
+To protect your privacy, it's important to conceal or obfuscate your origin IP address — the one that can be linked directly to your identity.
 This can be achieved using one or a combination of the following methods:
 
 - **Public Wi-Fi networks** (free)
@@ -22,5 +32,7 @@ This can be achieved using one or a combination of the following methods:
 ### Your DNS and IP requests
 
 Usually the DNS is provided and logged by your ISP.
+DNS is also sent in plaintext
 
 - Use a private DNS or your own
+

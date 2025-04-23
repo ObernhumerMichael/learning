@@ -121,6 +121,8 @@ Obesity makes irreversible changes to the brain.
 - The sexual arousal one feels may be involuntary and beyond ones control.
   Choosing to act on that sexual arousal is another matter entirely.
 - it is suspected that a higher level of dopamin increases the sex drive
+- Excessive use of pornography is impacting on healthy sexual behaviours.
+- Once loyalty is betrayed and trust is broken, it can never really, truly, be fully recovered.
 
 ## Cues / Questions / Keywords
 
@@ -130,3 +132,7 @@ Obesity makes irreversible changes to the brain.
 - lust, romantic love and long-term commitment
 
 ## Summary
+
+Lust can be influenced to a large degree by the body but choosing to act on these impulses is another matter entirely.
+Lust is temporary and one should strive for long term relationships.
+Pornography can destroy relationships and encourage bad sexual behavior.
