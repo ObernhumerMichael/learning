@@ -41,6 +41,8 @@ Keep in mind that none of these methods are foolproof, and each comes with poten
   - [Your Digital Footprint](#your-digital-footprint)
   - [IRL and OSINT](#irl-and-osint)
   - [Your Face, Voice, Biometrics and Pictures](#your-face-voice-biometrics-and-pictures)
+  - [Gait Recognition and Other Long-Range Biometrics](#gait-recognition-and-other-long-range-biometrics)
+  - [Phishing \& Social Engineering](#phishing--social-engineering)
 
 # Your Network
 
@@ -384,3 +386,39 @@ Even if you're super careful, **your body can betray you**—especially your fac
 - **Avoid selfies** and **public appearances** if anonymity is critical.
 - Don’t share photos or recordings tied to your voice, face, or body.
 - Remember, once your image is online, it’s **almost impossible to take back**.
+
+## Gait Recognition and Other Long-Range Biometrics
+
+Even if your **face is covered**, you're still not safe from modern surveillance.
+
+**Gait Recognition**
+- Cameras can ID you just by **how you move**—not just your steps, but how your **muscles shift**.
+- **Changing your walk doesn't work**—they see through that.
+- Best defense: **loose clothing** that hides muscle movements.
+
+**Other Biometrics**
+- **Earlobes**, **skull shape**, **eye behavior**, **lip movements**, and even **emotion analysis** from posture/face.
+- Facial coverings like balaclavas may **draw more attention** and still reveal enough to ID you.
+
+**Mitigation Tips**
+These only reduce risk—they don’t guarantee protection:
+- **Mask** – can defeat some face recognition.
+- **Baseball cap** – blocks top-down CCTV.
+- **Sunglasses** – hide eyes (try [Reflectacles](https://www.reflectacles.com/)).
+- Try 3D-printed **face/gait spoofers** like [FG-01](https://gitlab.com/FG-01/fg-01).
+
+But remember: **trying too hard to hide** can make you more suspicious and lead to **human review**.
+
+**TL;DR:** Modern surveillance can identify you by **how you move, talk, look, and behave**. 
+Tools exist to reduce exposure, but none guarantee invisibility—only mitigation.
+
+## Phishing & Social Engineering
+
+Phishing tricks you into revealing info by impersonating trusted sources—via fake emails, texts, or calls. 
+It’s often used to steal credentials or install malware.
+
+**Defense:**
+- **Stay skeptical** of unexpected messages.
+- **Don’t click suspicious links** or download unknown files.
+- **Verify** requests through official channels.
+- Use **2FA** when possible.
