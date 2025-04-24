@@ -136,3 +136,14 @@ Obesity makes irreversible changes to the brain.
 Lust can be influenced to a large degree by the body but choosing to act on these impulses is another matter entirely.
 Lust is temporary and one should strive for long term relationships.
 Pornography can destroy relationships and encourage bad sexual behavior.
+
+# Sloth
+
+## Notes
+
+- The seemingly pragmatic approach of conserving energy wherever possible is not only less satisfying but, can even be dire news for our health
+- If we don’t take regular exercise, our health rapidly declines.
+
+## Cues / Questions / Keywords
+
+## Summary
