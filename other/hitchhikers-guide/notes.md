@@ -28,9 +28,6 @@ Keep in mind that none of these methods are foolproof, and each comes with poten
   - [The Wi-Fi and Bluetooth devices around you](#the-wi-fi-and-bluetooth-devices-around-you)
   - [Rogue Wi-Fi Access Points](#rogue-wi-fi-access-points)
   - [Traffic Anonymization](#traffic-anonymization)
-    - [Common Attacks:](#common-attacks)
-    - [Mitigations:](#mitigations)
-    - [Important Notes:](#important-notes)
   - [Some Devices can be tracked even when offline](#some-devices-can-be-tracked-even-when-offline)
 - [Your Hardware Identifiers](#your-hardware-identifiers)
   - [Your IMEI and IMSI](#your-imei-and-imsi)
@@ -41,6 +38,9 @@ Keep in mind that none of these methods are foolproof, and each comes with poten
 - [Your Smart Devices](#your-smart-devices)
 - [Yourself](#yourself)
   - [Your Metadata](#your-metadata)
+  - [Your Digital Footprint](#your-digital-footprint)
+  - [IRL and OSINT](#irl-and-osint)
+  - [Your Face, Voice, Biometrics and Pictures](#your-face-voice-biometrics-and-pictures)
 
 # Your Network
 
@@ -118,18 +118,18 @@ Once connected, attackers can monitor your traffic, steal credentials, and even 
 Tor and VPNs help protect your privacy, **but they’re not invincible**.
 Advanced attacks like **correlation** and **timing analysis** can de-anonymize you by matching encrypted traffic patterns to known destinations or users — even **without decrypting anything**.
 
-### Common Attacks:
+**Common Attacks:**
 - **Fingerprinting**: Match your encrypted Tor traffic to website patterns.
 - **Timing Attacks**: Correlate when you connect to Tor/VPN with when someone accesses a site.
 - **Counting Attacks**: Match download/upload sizes across networks.
 
-### Mitigations:
+**Mitigations:**
 - Don’t access local services through anonymizers (e.g., don’t Tor into your own university network).
 - Avoid heavily monitored networks (e.g., corporate or government).
 - Use **VPN over Tor** (or **Tor over VPN**) to add layers and confuse correlation attempts.
 - Use **public or residential Wi-Fi** for added unlinkability.
 
-### Important Notes:
+**Important Notes:**
 - Global surveillance adversaries (e.g., NSA) can still break anonymity with enough data.
 - Tor usage **alone** might flag you as suspicious in some contexts.
 - Tools like behavioral analysis or Wi-Fi/Bluetooth tracking can still deanonymize you indirectly.
@@ -305,3 +305,82 @@ Even with a VPN:
 
 **Minimize metadata leakage.**  
 Use privacy tools + stay aware of what your devices reveal — even *without* your input.
+
+## Your Digital Footprint
+
+Your **digital footprint** is more than just what you post or search — it's **how** you behave online. 
+And that behavior is *shockingly unique*.
+
+**Behavior = Identity**
+Even if you mask your IP, use a VPN, or disable cookies, systems can still identify you through:
+
+- **Stylometry**: The way you write (word choice, grammar, punctuation, etc.)
+- **Behavioral biometrics**: Typing speed, rhythm, mouse movements
+- **Browser fingerprinting**: Fonts, extensions, screen size, OS, hardware
+- **Keystroke logging**: Even if you don’t submit a form
+- **Cursor tracking & click behavior**: Your subconscious habits are identifiers
+
+Even things like:
+> “You always click the same button first”  
+> “You use specific words or typos often”  
+...can be used to **link your identity** across platforms.
+
+**How to Minimize Fingerprinting**
+
+Tech helps, but behavior matters most.
+
+1. **Use privacy-focused tools**:
+    - Tor Browser (with JS disabled if needed)
+    - Firefox with privacy extensions (like uBlock Origin, NoScript, CanvasBlocker)
+    - Anti-fingerprinting OSes (like Tails or Qubes OS)
+
+2. **Act differently with anonymous identities**:
+    - Change typing habits (speed, spelling style)
+    - Use different phrasing or vocabulary
+    - Vary mouse/click behavior
+    - Don’t use your usual site/app flow or bookmarks
+
+> You’re playing a role. Don’t leave behavioral breadcrumbs.
+
+## IRL and OSINT
+
+Even with good privacy tools, sharing real-life details over time can expose you. 
+This is where **OSINT (Open-Source Intelligence)** comes in—collecting public data like forum posts, photos, metadata, and social media to link identities.
+
+**Example:**
+Hacker Jeremy Hammond was caught after casually mentioning personal facts online. 
+Over time, those added up.
+
+**OSINT Resources:**
+- [OSINT Framework](https://osintframework.com)
+- [Awesome OSINT GitHub](https://github.com/jivoi/awesome-osint)
+- [ReconTool](https://recontool.org)
+
+**Stay Safe:**
+- Don’t reuse stories, habits, or writing styles
+- Avoid specific dates, places, or job info
+- Act like a completely different person online
+
+You should never share real individual experiences/details using your anonymous identities that could later lead to finding your real identity. 
+
+> Every post is a puzzle piece. Don’t let them add up.
+
+## Your Face, Voice, Biometrics and Pictures
+
+Even if you're super careful, **your body can betray you**—especially your face.
+
+**Face Recognition Is Everywhere:**
+- Platforms like **Facebook, Google, Snapchat** use it to tag and organize photos.
+- Even **random selfies in public** can capture your face and link you to a location and timestamp.
+- Uploaded images often include metadata (EXIF), and even without it, AI can estimate **when and where** the photo was taken.
+
+**Want to See This in Action?**
+- Bellingcat’s guides & videos show how **facial recognition** and **geolocation** are used in real investigations:
+  - [Facial Recognition in Investigations](https://www.youtube.com/watch?v=awY87q2Mr0E)
+  - [Reverse Image Search Guide](https://www.bellingcat.com/resources/how-tos/2019/12/26/guide-to-using-reverse-image-search-for-investigations/)
+  - [Sun & Shadow Geolocation](https://www.bellingcat.com/resources/2020/12/03/using-the-sun-and-the-shadows-for-geolocation/)
+
+**Bottom Line:**
+- **Avoid selfies** and **public appearances** if anonymity is critical.
+- Don’t share photos or recordings tied to your voice, face, or body.
+- Remember, once your image is online, it’s **almost impossible to take back**.
