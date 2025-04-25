@@ -57,3 +57,10 @@
 1. How does the attractiveness ratings of men change in the different menstrual cycles?
    - During the fertile phase of the cycle, the attractiveness ratings the women gave for more masculine-looking faces, bodies and deeper-sounding voices increased slightly.
    - On the other hand, during the non-fertile weeks of the menstrual cycle, the attractiveness ratings for the more feminine male faces, bodies and voices increased slightly.
+
+# Sloth
+
+1. When can solth be virtuous?
+   - When the promise of future sloth, incentivises us to work harder right now.
+1. How does long-term unemployment impact our personality?
+   - It has a negative impact on conscientiousness.

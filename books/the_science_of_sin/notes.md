@@ -143,7 +143,17 @@ Pornography can destroy relationships and encourage bad sexual behavior.
 
 - The seemingly pragmatic approach of conserving energy wherever possible is not only less satisfying but, can even be dire news for our health
 - If we don’t take regular exercise, our health rapidly declines.
+- People who don’t rest are prone to run themselves ragged, leaving their bodies no alternative than to force a complete shutdown to make the necessary repairs.
+- Sloth can even be virtuous when the promise of future sloth incentivises us to work harder right now
+- long-term unemployment can actually have a negative impact on a personality trait (conscientiousness)
+- Brain circuitry that is used infrequently, or not particularly intensively, falls into relative disrepair.
+- Sloth: the opportunity to do something productive must have been shirked willingly, under circumstances where not bothering was a choice freely made.
+- It may not be the most destructive form of antisocial behaviour, but sloth is a sure-fire way to fall out of favour with the InGroup and find yourself left out in the cold.
+- While there’s nothing wrong with using the digital tools of entertainment in moderation, there are serious potential negative impacts of having so much spare time used up in these sedentary pursuits.
 
 ## Cues / Questions / Keywords
+
+- When can solth be virtuous?
+- How does long-term unemployment impact our personality?
 
 ## Summary
