@@ -42,7 +42,19 @@ Keep in mind that none of these methods are foolproof, and each comes with poten
   - [IRL and OSINT](#irl-and-osint)
   - [Your Face, Voice, Biometrics and Pictures](#your-face-voice-biometrics-and-pictures)
   - [Gait Recognition and Other Long-Range Biometrics](#gait-recognition-and-other-long-range-biometrics)
-  - [Phishing \& Social Engineering](#phishing--social-engineering)
+  - [Phishing and Social Engineering](#phishing-and-social-engineering)
+- [Malware, exploits, and viruses](#malware-exploits-and-viruses)
+  - [Malware in your files/documents/e-mails](#malware-in-your-filesdocumentse-mails)
+  - [Malware and Exploits in your apps and services](#malware-and-exploits-in-your-apps-and-services)
+  - [Malicious USB Devices](#malicious-usb-devices)
+  - [Malware and backdoors in your Hardware Firmware and Operating System](#malware-and-backdoors-in-your-hardware-firmware-and-operating-system)
+  - [Your files, documents, pictures, and videos](#your-files-documents-pictures-and-videos)
+  - [Watermarking](#watermarking)
+    - [Pictures, Video and Audio¶](#pictures-video-and-audio)
+    - [Printer Watermarking](#printer-watermarking)
+  - [Pixelized or Blurred Information](#pixelized-or-blurred-information)
+- [Your Crypto Transactions](#your-crypto-transactions)
+- [Your Cloud Backup and Sync Services](#your-cloud-backup-and-sync-services)
 
 # Your Network
 
@@ -154,7 +166,7 @@ Modern devices like:
 can still broadcast Bluetooth signals even when turned off. 
 Nearby online devices can pick this up, making offline tracking possible.
 
-**TL;DR:** Don’t bring these devices during sensitive activities or put them in a Farady pouch. 
+**TL;DR:** Don’t bring these devices during sensitive activities or put them in a Faraday pouch. 
 "Off" doesn’t mean invisible.
 
 # Your Hardware Identifiers
@@ -412,7 +424,7 @@ But remember: **trying too hard to hide** can make you more suspicious and lead 
 **TL;DR:** Modern surveillance can identify you by **how you move, talk, look, and behave**. 
 Tools exist to reduce exposure, but none guarantee invisibility—only mitigation.
 
-## Phishing & Social Engineering
+## Phishing and Social Engineering
 
 Phishing tricks you into revealing info by impersonating trusted sources—via fake emails, texts, or calls. 
 It’s often used to steal credentials or install malware.
@@ -422,3 +434,163 @@ It’s often used to steal credentials or install malware.
 - **Don’t click suspicious links** or download unknown files.
 - **Verify** requests through official channels.
 - Use **2FA** when possible.
+
+# Malware, exploits, and viruses
+
+## Malware in your files/documents/e-mails
+
+Malware can hide in common files (PDFs, images, videos, Office docs) using tricks like steganography or exploits in outdated software.
+Even tiny images in emails can leak your IP or trigger malicious downloads.
+
+**Defense:**
+- Avoid opening files from unknown sources.
+- Keep your software up to date.
+- Use **virtual machines** or **sandboxes** when handling risky files.
+
+## Malware and Exploits in your apps and services
+
+Even privacy tools like Tor or Brave can have hidden exploits unknown to the developers but known to attackers.
+
+**How to Protect Yourself:**
+- **Never fully trust any app.**
+- **Always use the latest version** and verify downloads with checksums/signatures.
+- **Use virtual machines** to isolate risky apps and browsers.
+
+## Malicious USB Devices
+
+Cheap, widely available devices like "BadUSBs" can be used to silently hack your system just by being plugged in. 
+
+They can:
+- Deploy malware  
+- Log your keystrokes  
+- Track your location  
+- Take control of your device  
+
+These can be hidden in cables, mice, keyboards, or USB sticks.
+
+**How to Protect Yourself:**
+- **Never plug unknown USB devices** into sensitive machines.  
+- **Use data-blocking adapters** for charging-only connections.  
+- **Disable USB ports in BIOS** if you don’t need them.  
+- **Avoid using public charging stations** without blockers.
+
+Even skilled users can't detect advanced USB-based malware without forensic tools.
+
+## Malware and backdoors in your Hardware Firmware and Operating System
+
+Malware can exist not just in apps—but deep within your **hardware, firmware**, and **operating system**.
+
+**Real-World Examples:**
+- **Intel IME**: A manufacturer-embedded backdoor allowing remote access.  
+- **Interdiction**: Attackers insert malware *before* hardware reaches you (e.g., in transit).  
+- **Rootkits**: Stealthy malware that runs deeper than the regular operating system.  
+
+**Mitigation (though limited):**
+- Protect physical access to your hardware  
+- Reflash firmware or BIOS from a trusted source if possible  
+- Use devices that allow disabling manufacturer backdoors (e.g., Coreboot-supported hardware)
+
+Once malware is in firmware or hardware, **detection and removal become extremely difficult**—especially if it’s by the manufacturer itself.
+
+## Your files, documents, pictures, and videos
+
+Most files—especially **images and videos**—contain hidden metadata that can reveal sensitive details.
+
+**What kind of data?**
+- **EXIF** in images: GPS location, camera model, time/date
+- **Videos**: Can include GPS data, recording device info  
+- **Documents**: Author name, edit history, software used
+
+**Why it matters:**
+Even if metadata doesn’t name you, it can show **where and when** you were somewhere—info that can be cross-referenced with other sources like CCTV or online posts.
+
+**Mitigation:**
+- **Strip metadata** before uploading (using tools like `exiftool`, `mat2`, or built-in settings)
+- **Always** double-check all files—even plain text—for hidden data
+
+Be meticulous. 
+Leaked metadata has unmasked identities before—don’t let it happen to you.
+
+## Watermarking
+
+### Pictures, Video and Audio¶
+
+Even if there are **no visible watermarks**, files from commercial platforms may include **invisible watermarks** to track or identify you.
+
+- Zoom can embed **video** and **audio watermarks**.
+- Apps like Adobe Premiere can insert tracking via extensions.
+- Watermarks often survive **compression** and **re-encoding**.
+- Devices used to film (e.g., lenses or microphones) can be **fingerprinted**.
+
+**Bottom line**: Avoid using known commercial tools or double-check their watermarking options if you're handling sensitive content.
+
+### Printer Watermarking
+
+Yes, **your printer might betray you**, even offline.
+
+- Many printers print **invisible dots** that identify the model and possibly the print time.
+- This is called **printer steganography** 
+
+**Mitigation tips**:
+- Print in **black and white only** (color often triggers watermarking).
+- Use the EFF’s list of printers **without tracking dots**:  
+  [EFF printer list](https://www.eff.org/pages/list-printers-which-do-or-do-not-display-tracking-dots)
+
+Always assume your media might be watermarked unless you’ve verified otherwise.
+
+## Pixelized or Blurred Information
+
+Blurring or pixelating sensitive data **is not secure**. Adversaries can often **recover** the original information.
+
+
+**Why blurring/pixelizing fails**
+
+- Tools like **Depix** [GitHub](https://github.com/beurtschipper/Depix) can **reverse blurred or pixelated text**, especially if a known font or structure is used.
+- Deblurring/pixel recovery is common in **OSINT** (Open Source Intelligence).
+- Even **photo enhancement** tools (like MyHeritage's [Photo Enhancer](https://www.myheritage.com/photo-enhancer)) can be enough to **reveal or infer details**.
+- Videos aren't safe either — recovery techniques can also work on **video frames** [Video de-pixelation blog](https://positive.security/blog/video-depixelation)
+
+
+**Best practice**
+
+> **Do not blur. Do not pixelate. Always use solid black redactions.**
+
+That means: crop or overlay black boxes permanently. 
+Never rely on cosmetic effects to hide info — it's not enough.
+
+# Your Crypto Transactions
+
+**The Myth: “Crypto = Anonymous”**
+
+**Wrong.** Most cryptocurrencies like **Bitcoin** and **Ethereum** are **pseudonymous** — not anonymous.
+
+Every transaction is:
+- **Publicly visible** on a blockchain.
+- **Permanently recorded**.
+- **Linkable** via patterns, reused addresses, exchange logs, IP traces, etc.
+
+**Where deanonymization happens**
+- **Creating a wallet** via Tor or VPN → stays anonymous.
+- **Converting fiat** (EUR/USD) to crypto → not anonymous due to **KYC** laws at exchanges (Coinbase, Kraken, Binance, etc).
+- **Cashing out crypto** to a bank → easily traced.
+- **Using mixers/tumblers** → risky and often ineffective due to:
+  - Centralized logs
+  - Demixing possibilities
+  - Legal gray areas (money laundering risks)
+
+**Better Option: Monero (XMR)**
+- **Privacy by design**:
+  - Ring signatures
+  - Stealth addresses
+  - Confidential transactions
+- Still not *perfect* — but the best available for privacy-conscious users.
+
+# Your Cloud Backup and Sync Services
+
+Many cloud services like iCloud, Google Drive, OneDrive, and Dropbox claim to use encryption, but they still hold the keys to your data, meaning they can access it if needed. 
+They also scan and index your files for analytics or legal reasons.
+
+**What You Can Do:**
+1. Encrypt your data before uploading.
+2. Use zero-knowledge services like Tresorit or Proton Drive.
+3. **Avoid cloud backups for sensitive data.**
