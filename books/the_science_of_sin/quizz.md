@@ -64,3 +64,5 @@
    - When the promise of future sloth, incentivises us to work harder right now.
 1. How does long-term unemployment impact our personality?
    - It has a negative impact on conscientiousness.
+1. What is sloth?
+   - Sloth: the opportunity to do something productive must have been shirked willingly, under circumstances where not bothering was a choice freely made.

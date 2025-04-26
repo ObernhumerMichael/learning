@@ -155,5 +155,22 @@ Pornography can destroy relationships and encourage bad sexual behavior.
 
 - When can solth be virtuous?
 - How does long-term unemployment impact our personality?
+- What is sloth?
+
+## Summary
+
+Sloth, while sometimes disguised as conserving energy, often leads to declining health, weakened brain function, and social isolation when chosen freely over productive action.
+Chronic idleness, like long-term unemployment or excessive digital entertainment, erodes conscientiousness and vitality.
+True sloth isn’t about necessary rest but about shirking meaningful activity, ultimately damaging both personal well-being and community ties.
+
+# Greed
+
+## Notes
+
+- Greed’s status as a capital vice is all about banishing **excessive** desire for wealth from society.
+- Someone that has great wealth, often uses the power that comes with it to subordinate others.
+- greed is the ultimate cause of all fraud, corruption and theft
+
+## Cues / Questions / Keywords
 
 ## Summary
