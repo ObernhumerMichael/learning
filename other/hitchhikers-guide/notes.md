@@ -55,6 +55,12 @@ Keep in mind that none of these methods are foolproof, and each comes with poten
   - [Pixelized or Blurred Information](#pixelized-or-blurred-information)
 - [Your Crypto Transactions](#your-crypto-transactions)
 - [Your Cloud Backup and Sync Services](#your-cloud-backup-and-sync-services)
+- [Microarchitectural Side-channel Deanonymization Attacks](#microarchitectural-side-channel-deanonymization-attacks)
+- [Local Data Leaks and Forensics](#local-data-leaks-and-forensics)
+- [Bad Cryptography](#bad-cryptography)
+- [No-Log Policies](#no-log-policies)
+- [Some Advanced targeted techniques](#some-advanced-targeted-techniques)
+- [Some bonus resources](#some-bonus-resources)
 
 # Your Network
 
@@ -594,3 +600,142 @@ They also scan and index your files for analytics or legal reasons.
 1. Encrypt your data before uploading.
 2. Use zero-knowledge services like Tresorit or Proton Drive.
 3. **Avoid cloud backups for sensitive data.**
+
+# Microarchitectural Side-channel Deanonymization Attacks
+
+A recently published attack can link your anonymous identity to a known alias, like a public Twitter handle, breaking anonymity—even with good OPSEC. 
+
+**How It Works**
+The attack uses invisible iframes and font fingerprinting to detect what fonts are installed on your system. 
+These patterns are unique enough to track users across sessions and link multiple identities together. 
+Even privacy features like “Do Not Track” won’t stop it.
+
+**Mitigation**
+- **Use NoScript Browser Extension** (recommended): Blocks scripts and prevents these attacks.
+- **Tor Browser** already blocks the attack by default (via NoScript 11.4.8+).
+
+**Important Notes**
+- Closing all activity tied to your public identity before using an anonymous one is essential.
+- Using separate browsers or VMs alone does not prevent this attack.
+
+
+# Local Data Leaks and Forensics
+
+Law enforcement can extract data from phones and laptops—even if encrypted. This can happen during investigations or random checks like border crossings.
+
+**Smartphones**
+Tools like GrayKey and Cellebrite let police unlock and analyze devices.  
+Read more:  
+- [UpTurn: Mass Extraction](https://www.upturn.org/reports/2020/mass-extraction/)  
+- [NYT: Police Can Break Into Your Phone](https://www.nytimes.com/2020/10/21/technology/iphone-encryption-police.html)  
+- [Vice: iPhones Can Be Unlocked](https://www.vice.com/en/article/vbxxxd/unlock-iphone-ios11-graykey-grayshift-police)
+
+**Forensic Tools**
+- [EnCase Guide (PDF)](http://encase-docs.opentext.com/documentation/encase/forensic/8.07/Content/Resources/External%20Files/EnCase%20Forensic%20v8.07%20User%20Guide.pdf)  
+- [FTK Toolkit](https://accessdata.com/products-services/forensic-toolkit-ftk)  
+- [SANS DFIR Videos](https://www.youtube.com/c/SANSDigitalForensics/videos)
+
+**OS Security**
+- [Johns Hopkins: Mobile Security Overview](https://securephones.io/main.html)
+
+**Laptops**
+Use full disk encryption, virtualization, and compartmentalization to reduce risk.
+
+# Bad Cryptography
+
+"Don’t roll your own crypto" is a common warning for good reason—crypto is hard to get right. Strong cryptography takes years of research, is open source, peer-reviewed, and tested in the real world.
+
+**Avoid apps or services that:**
+- Use custom or closed-source crypto
+- Modify existing algorithms
+- Use terms like “military-grade encryption” without transparency
+
+**Use:**
+- **Hashes**: SHA-3, BLAKE2 (ok: SHA-256/512; avoid: SHA-1, MD5)
+- **Disk encryption**: AES-256 with HMAC-SHA-2/3, ChaCha20, Serpent, TwoFish
+- **Password storage**: Argon2 (i/id), scrypt (ok: bcrypt; last resort: PBKDF2; avoid: SHA, MD5)
+- **HTTPS**: TLS 1.3 (or TLS 1.2)
+- **Signing**: ed25519/ECDSA + ECDH (ok: RSA 4096; avoid: RSA 2048)
+- **SSH**: ED25519 or RSA 4096
+
+# No-Log Policies
+
+Many VPN and email providers claim to have "no-log" policies, but they’re still legal entities and can be compelled to start logging by court orders—often without your knowledge.
+
+**Key takeaways:**
+- Providers can be forced to log data, regardless of their policies.
+- You won’t be notified if you're being monitored.
+- Warrant canaries exist but remain unproven in court.
+
+**Mitigation:**
+- Use VPNs that accept **cash or Monero**.
+- Always **use VPNs over Tor** to hide your identity from the provider.
+- Don’t rely solely on provider claims—assume they can be compromised.
+
+Trust no one. 
+Design your privacy stack under the assumption that "no-log" might just mean "not yet logging."
+
+# Some Advanced targeted techniques 
+
+**Read the resources linked on the official guide!**
+
+Even if you have great digital hygiene, **high-skilled adversaries** can still breach your defenses—especially if they know where your devices are. These attacks often involve **physical access, hidden malware, or exploiting side channels** (like sound, light, vibrations).
+
+
+**Examples of Advanced Attacks:**
+
+**With Malware:**
+- **Router Infection:** Send data out via a compromised router.
+- **Light/Camera Attacks:** Watch light variations from keyboards or displays to extract data.
+- **Sound-Based Attacks:** Use fan noise, HDD noise, or ultrasonic sounds to transmit information.
+- **Electromagnetic Attacks:** Leak data via screen emissions, HDD vibrations, or power lines.
+- **Acoustic/IR Attacks:** Use hacked cameras to communicate with malware via infrared light.
+- **RAM Wi-Fi Hack:** Turn RAM into a covert Wi-Fi transmitter (!).
+
+**Without Malware:**
+- **Wall Imaging:** Use tiny wall vibrations to map people’s positions.
+- **Snack Bag Reflections:** Use reflections on shiny surfaces to reconstruct a room.
+- **Floor Vibrations:** Track people and emotions through footsteps.
+- **Light Bulb Spying:** "Hear" conversations by observing vibrating light bulbs.
+
+
+**Realistic Threat Level:**  
+Most individuals aren't targeted like this.  
+**However**, **nation-states**, **corporate espionage**, or **high-value targets** can be.
+
+
+**Mitigations:**
+- Use devices only on **trusted power sources**.
+- Keep devices away from **cameras** and **microphones**.
+- Use **soundproofed rooms** and **Faraday cages**.
+- Avoid talking near **visible light bulbs** or **reflective surfaces**.
+- **Buy hardware offline** from random stores.
+- **Limit physical access** to your machines.
+
+# Some bonus resources
+
+**Read the resources linked on the official guide!**
+
+**Bonus Resources for Deeper Learning:**
+- [Whonix Data Collection Techniques](https://www.whonix.org/wiki/Data_Collection_Techniques)
+- [ToS;DR: Terms of Service, Didn’t Read](https://tosdr.org/)
+- [EFF Privacy Advocacy](https://www.eff.org/issues/privacy)
+- [List of Surveillance Projects (Wikipedia)](https://en.wikipedia.org/wiki/List_of_government_mass_surveillance_projects)
+- [Gwern’s Death Note Anonymity Essay](https://www.gwern.net/Death-Note-Anonymity)
+- [Michael Bazzell's OSINT Techniques Book](https://inteltechniques.com/book1.html)
+- [Freehaven Anonymity Bibliography](https://www.freehaven.net/anonbib/date.html)
+
+
+**Transparency Reports (How often companies hand over user data):**
+- [Google](https://transparencyreport.google.com/user-data/overview)
+- [Facebook](https://transparency.facebook.com/)
+- [Apple](https://www.apple.com/legal/transparency/)
+- [Cloudflare](https://www.cloudflare.com/transparency/)
+- [Discord](https://discord.com/blog/discord-transparency-report-q1-2022)
+- [GitHub](https://github.blog/2021-02-25-2020-transparency-report/)
+- ... and many more.
+
+
+**Bottom line:**  
+If your adversary is skilled enough and determined enough, no setup is 100% safe.  
+**Stay paranoid, stay careful, but don’t go crazy unless you have to.**
