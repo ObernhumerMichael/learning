@@ -8,7 +8,9 @@ titlepage-background: "../../template/background10.pdf"
 footnotes-pretty: true
 ---
 
-# Introduction
+# Actionable Guide for online Anonymity
+
+## Introduction
 
 This is a summarized checklist and to-do list aimed at increasing privacy and anonymity on the internet.
 It has been compiled based on the official [Hitchhiker’s Guide to Online Anonymity](https://anonymousplanet.org/guide/) not including the links in the guide.
@@ -17,63 +19,64 @@ Its purpose is to provide a quick overview and actionable steps, **not** to repl
 For comprehensive details, background information, and reasoning behind each recommendation, please refer to the full Hitchhiker’s Guide.
 Keep in mind that none of these methods are foolproof, and each comes with potential trade-offs and risks.
 
-# Index
+## Index
 
-- [Introduction](#introduction)
-- [Index](#index)
-- [Your Network](#your-network)
-  - [Your IP address](#your-ip-address)
-  - [Your DNS and IP Requests](#your-dns-and-ip-requests)
-  - [Your RFID enabled devices](#your-rfid-enabled-devices)
-  - [The Wi-Fi and Bluetooth devices around you](#the-wi-fi-and-bluetooth-devices-around-you)
-  - [Rogue Wi-Fi Access Points](#rogue-wi-fi-access-points)
-  - [Traffic Anonymization](#traffic-anonymization)
-  - [Some Devices can be tracked even when offline](#some-devices-can-be-tracked-even-when-offline)
-- [Your Hardware Identifiers](#your-hardware-identifiers)
-  - [Your IMEI and IMSI](#your-imei-and-imsi)
-  - [Your Wi-Fi or Ethernet MAC address¶](#your-wi-fi-or-ethernet-mac-address)
-  - [Your Bluetooth MAC Address](#your-bluetooth-mac-address)
-- [Your CPU](#your-cpu)
-- [OS and App Telemetry services](#os-and-app-telemetry-services)
-- [Your Smart Devices](#your-smart-devices)
-- [Yourself](#yourself)
-  - [Your Metadata](#your-metadata)
-  - [Your Digital Footprint](#your-digital-footprint)
-  - [IRL and OSINT](#irl-and-osint)
-  - [Your Face, Voice, Biometrics and Pictures](#your-face-voice-biometrics-and-pictures)
-  - [Gait Recognition and Other Long-Range Biometrics](#gait-recognition-and-other-long-range-biometrics)
-  - [Phishing and Social Engineering](#phishing-and-social-engineering)
-- [Malware, exploits, and viruses](#malware-exploits-and-viruses)
-  - [Malware in your files/documents/e-mails](#malware-in-your-filesdocumentse-mails)
-  - [Malware and Exploits in your apps and services](#malware-and-exploits-in-your-apps-and-services)
-  - [Malicious USB Devices](#malicious-usb-devices)
-  - [Malware and backdoors in your Hardware Firmware and Operating System](#malware-and-backdoors-in-your-hardware-firmware-and-operating-system)
-  - [Your files, documents, pictures, and videos](#your-files-documents-pictures-and-videos)
-  - [Watermarking](#watermarking)
-    - [Pictures, Video and Audio¶](#pictures-video-and-audio)
-    - [Printer Watermarking](#printer-watermarking)
-  - [Pixelized or Blurred Information](#pixelized-or-blurred-information)
-- [Your Crypto Transactions](#your-crypto-transactions)
-- [Your Cloud Backup and Sync Services](#your-cloud-backup-and-sync-services)
-- [Microarchitectural Side-channel Deanonymization Attacks](#microarchitectural-side-channel-deanonymization-attacks)
-- [Local Data Leaks and Forensics](#local-data-leaks-and-forensics)
-- [Bad Cryptography](#bad-cryptography)
-- [No-Log Policies](#no-log-policies)
-- [Some Advanced targeted techniques](#some-advanced-targeted-techniques)
-- [Some bonus resources](#some-bonus-resources)
-- [General Preparations](#general-preparations)
-  - [Picking your route](#picking-your-route)
+- [Actionable Guide for online Anonymity](#actionable-guide-for-online-anonymity)
+  - [Introduction](#introduction)
+  - [Index](#index)
+  - [Your Network](#your-network)
+    - [Your IP address](#your-ip-address)
+    - [Your DNS and IP Requests](#your-dns-and-ip-requests)
+    - [Your RFID enabled devices](#your-rfid-enabled-devices)
+    - [The Wi-Fi and Bluetooth devices around you](#the-wi-fi-and-bluetooth-devices-around-you)
+    - [Rogue Wi-Fi Access Points](#rogue-wi-fi-access-points)
+    - [Traffic Anonymization](#traffic-anonymization)
+    - [Some Devices can be tracked even when offline](#some-devices-can-be-tracked-even-when-offline)
+  - [Your Hardware Identifiers](#your-hardware-identifiers)
+    - [Your IMEI and IMSI](#your-imei-and-imsi)
+    - [Your Wi-Fi or Ethernet MAC address¶](#your-wi-fi-or-ethernet-mac-address)
+    - [Your Bluetooth MAC Address](#your-bluetooth-mac-address)
+  - [Your CPU](#your-cpu)
+  - [OS and App Telemetry services](#os-and-app-telemetry-services)
+  - [Your Smart Devices](#your-smart-devices)
+  - [Yourself](#yourself)
+    - [Your Metadata](#your-metadata)
+    - [Your Digital Footprint](#your-digital-footprint)
+    - [IRL and OSINT](#irl-and-osint)
+    - [Your Face, Voice, Biometrics and Pictures](#your-face-voice-biometrics-and-pictures)
+    - [Gait Recognition and Other Long-Range Biometrics](#gait-recognition-and-other-long-range-biometrics)
+    - [Phishing and Social Engineering](#phishing-and-social-engineering)
+  - [Malware, exploits, and viruses](#malware-exploits-and-viruses)
+    - [Malware in your files/documents/e-mails](#malware-in-your-filesdocumentse-mails)
+    - [Malware and Exploits in your apps and services](#malware-and-exploits-in-your-apps-and-services)
+    - [Malicious USB Devices](#malicious-usb-devices)
+    - [Malware and backdoors in your Hardware Firmware and Operating System](#malware-and-backdoors-in-your-hardware-firmware-and-operating-system)
+    - [Your files, documents, pictures, and videos](#your-files-documents-pictures-and-videos)
+    - [Watermarking](#watermarking)
+      - [Pictures, Video and Audio¶](#pictures-video-and-audio)
+      - [Printer Watermarking](#printer-watermarking)
+    - [Pixelized or Blurred Information](#pixelized-or-blurred-information)
+  - [Your Crypto Transactions](#your-crypto-transactions)
+  - [Your Cloud Backup and Sync Services](#your-cloud-backup-and-sync-services)
+  - [Microarchitectural Side-channel Deanonymization Attacks](#microarchitectural-side-channel-deanonymization-attacks)
+  - [Local Data Leaks and Forensics](#local-data-leaks-and-forensics)
+  - [Bad Cryptography](#bad-cryptography)
+  - [No-Log Policies](#no-log-policies)
+  - [Some Advanced targeted techniques](#some-advanced-targeted-techniques)
+  - [Some bonus resources](#some-bonus-resources)
+  - [General Preparations](#general-preparations)
+    - [Picking your route](#picking-your-route)
   - [Steps for all routes](#steps-for-all-routes)
     - [Getting used to using better passwords](#getting-used-to-using-better-passwords)
-  - [Getting an Anonymous Phone Number](#getting-an-anonymous-phone-number)
-    - [Burner Phone](#burner-phone)
-    - [Anonymous Prepaid SIM](#anonymous-prepaid-sim)
-    - [Online Phone Numbers (Riskier)](#online-phone-numbers-riskier)
-  - [Get a USB key](#get-a-usb-key)
+    - [Getting an Anonymous Phone Number](#getting-an-anonymous-phone-number)
+      - [Burner Phone](#burner-phone)
+      - [Anonymous Prepaid SIM](#anonymous-prepaid-sim)
+      - [Online Phone Numbers (Riskier)](#online-phone-numbers-riskier)
+    - [Get a USB key](#get-a-usb-key)
 
-# Your Network
+## Your Network
 
-## Your IP address
+### Your IP address
 
 Your IP address is easily accessible and can reveal identifying information about you.
 To protect your privacy, it's important to conceal or obfuscate your origin IP address — the one that can be linked directly to your identity.
@@ -83,7 +86,7 @@ This can be achieved using one or a combination of the following methods:
 - **The Tor anonymity network** (free)
 - **VPN services used anonymously** (e.g., paid with cash or Monero)
 
-## Your DNS and IP Requests
+### Your DNS and IP Requests
 
 By default, your DNS requests are handled by your Internet Service Provider (ISP), which logs them.
 
@@ -114,7 +117,7 @@ To address these concerns as thoroughly as possible, this guide will later recom
 1. **Using Tor**
 2. **Implementing a virtualized, multi-layered setup**, such as **VPN over Tor** (e.g., DNS over VPN over Tor or DNS over Tor)
 
-## Your RFID enabled devices
+### Your RFID enabled devices
 
 RFID in everyday items (cards, passport, phone, etc.) can be scanned without your knowledge, posing privacy risks like tracking or de-anonymization.
 
@@ -123,7 +126,7 @@ RFID in everyday items (cards, passport, phone, etc.) can be scanned without you
 1. **Be cautious in stores—some may scan all RFID tags.**  
 1. **Shield devices during sensitive activities (e.g. Farrady cage).**
 
-## The Wi-Fi and Bluetooth devices around you
+### The Wi-Fi and Bluetooth devices around you
 
 Wi-Fi and Bluetooth signals are used to track your location and movements, even without GPS.
 Devices constantly scan nearby signals and send this data to companies like Google and Apple.
@@ -133,7 +136,7 @@ This can be used for precise tracking—even through walls—by analyzing signal
 1. **For high privacy, stay in areas shielded like a Faraday cage.**
 1. You could also try turning of Wi-F, Bluetooth, GPS,... but you cannot really trust these settings
 
-## Rogue Wi-Fi Access Points
+### Rogue Wi-Fi Access Points
 
 Rogue Wi-Fi access points (APs) can trick your device into connecting to fake networks using de-auth attacks and spoofed portals.
 Once connected, attackers can monitor your traffic, steal credentials, and even bypass VPNs/Tor with advanced techniques.
@@ -142,35 +145,39 @@ Once connected, attackers can monitor your traffic, steal credentials, and even 
 1. **Always use a VPN/Tor (or VPN + Tor) on public networks.**  
 1. **Verify captive portals carefully, don't enter credentials unless you're sure it's legit.**  
 
-## Traffic Anonymization
+### Traffic Anonymization
 
 Tor and VPNs help protect your privacy, **but they’re not invincible**.
 Advanced attacks like **correlation** and **timing analysis** can de-anonymize you by matching encrypted traffic patterns to known destinations or users — even **without decrypting anything**.
 
 **Common Attacks:**
+
 - **Fingerprinting**: Match your encrypted Tor traffic to website patterns.
 - **Timing Attacks**: Correlate when you connect to Tor/VPN with when someone accesses a site.
 - **Counting Attacks**: Match download/upload sizes across networks.
 
 **Mitigations:**
+
 - Don’t access local services through anonymizers (e.g., don’t Tor into your own university network).
 - Avoid heavily monitored networks (e.g., corporate or government).
 - Use **VPN over Tor** (or **Tor over VPN**) to add layers and confuse correlation attempts.
 - Use **public or residential Wi-Fi** for added unlinkability.
 
 **Important Notes:**
+
 - Global surveillance adversaries (e.g., NSA) can still break anonymity with enough data.
 - Tor usage **alone** might flag you as suspicious in some contexts.
 - Tools like behavioral analysis or Wi-Fi/Bluetooth tracking can still deanonymize you indirectly.
 
 For more, check out:
+
 - [Attacks on Tor GitHub](https://github.com/Attacks-on-Tor/Attacks-on-Tor)
 - [Tor research survey](https://www.researchgate.net/publication/323627387_Shedding_Light_on_the_Dark_Corners_of_the_Internet_A_Survey_of_Tor_Research)
 - [Tor 0day post](https://www.hackerfactor.com/blog/index.php?/archives/906-Tor-0day-The-Management-Vulnerability.html)
 
 > Bottom line: Tor helps, but **don’t rely on it alone** — especially against well-funded adversaries.
 
-## Some Devices can be tracked even when offline
+### Some Devices can be tracked even when offline
 
 Modern devices like:
 
@@ -178,15 +185,15 @@ Modern devices like:
 - Samsung phones (Android 10+)
 - MacBooks (macOS 10.15+)
 
-can still broadcast Bluetooth signals even when turned off. 
+can still broadcast Bluetooth signals even when turned off.
 Nearby online devices can pick this up, making offline tracking possible.
 
-**TL;DR:** Don’t bring these devices during sensitive activities or put them in a Faraday pouch. 
+**TL;DR:** Don’t bring these devices during sensitive activities or put them in a Faraday pouch.
 "Off" doesn’t mean invisible.
 
-# Your Hardware Identifiers
+## Your Hardware Identifiers
 
-## Your IMEI and IMSI
+### Your IMEI and IMSI
 
 Every phone has two unique IDs:
 
@@ -196,6 +203,7 @@ Every phone has two unique IDs:
 Whenever you connect to a mobile network, **both are logged** by operators and often shared with app makers, OS providers, and governments.
 
 **Why it matters:**
+
 - Even **anonymous SIMs** can betray you if reused on a phone with a known IMEI.
 - **Antenna logs** can match your "burner" to your real phone based on signal strength and time.
 - **IMEI sale records** can trace the phone back to you—even if bought with cash, e.g. CCTV, Antenna logs.
@@ -204,6 +212,7 @@ Whenever you connect to a mobile network, **both are logged** by operators and o
 - **IMSI-catchers** (like Stingrays) can fake antennas to intercept calls, messages, or impersonate your number.
 
 **Best practices:**
+
 - Use **burner phones** and **cash-bought SIMs** not tied to your identity.
 - Avoid reusing phones or SIMs.
 - Consider **anonymous online SIM services** that accept crypto (like Monero).
@@ -213,11 +222,12 @@ Whenever you connect to a mobile network, **both are logged** by operators and o
 **TL;DR:** IMEI + IMSI = uniquely trackable.
 Use a truly separate device + SIM for sensitive actions.
 
-## Your Wi-Fi or Ethernet MAC address¶
+### Your Wi-Fi or Ethernet MAC address¶
 
 Every device with Wi-Fi or Ethernet has a **MAC address** — a unique ID for your network hardware.
 
 **Why it's a privacy risk:**
+
 - It can be **linked to the buyer** via manufacturer records (serial number + MAC).
 - Even cash-bought laptops may be traceable through **CCTV and antenna logs**.
 - OS vendors like **Apple, Google, Microsoft** log MACs for services like “Find My Device.”
@@ -227,6 +237,7 @@ Every device with Wi-Fi or Ethernet has a **MAC address** — a unique ID for yo
 **Key point:** If you used a device normally before using it for sensitive activity, it's likely already linked to you.
 
 **Protect yourself:**
+
 - **Randomize your MAC address** — supported on Android, iOS, Linux, Windows 10/11.
 - **macOS does not support MAC randomization** — not ideal for privacy.
 - Avoid using your personal device for sensitive activities.
@@ -234,36 +245,40 @@ Every device with Wi-Fi or Ethernet has a **MAC address** — a unique ID for yo
 **TL;DR:** MAC addresses can silently link you to a device and place.
 Use MAC randomization or separate hardware.
 
-## Your Bluetooth MAC Address
+### Your Bluetooth MAC Address
 
 Your **Bluetooth MAC** is another unique identifier — like your Wi-Fi MAC, but for Bluetooth.
 
 **Why it matters:**
+
 - Manufacturers & OS vendors **log Bluetooth MACs**, potentially linking them to your identity or purchase.
 - Logs + billing info + **CCTV footage** + **antenna data** can be used to trace it back to you.
 
 **Privacy risks:**
+
 - Can be used to **track your presence** in stores, public places, etc.
 - Some **vulnerabilities** still exist, even with protections.
 
 **What to do:**
+
 - **Disable Bluetooth** entirely in BIOS/UEFI if possible — or via your OS if not.
 - On **Windows 10**, toggle the Bluetooth device in *Device Manager* to force address randomization.
 
-**TL;DR:** Bluetooth tracking is less risky than Wi-Fi MAC tracking but still a concern. 
+**TL;DR:** Bluetooth tracking is less risky than Wi-Fi MAC tracking but still a concern.
 Disable it if not needed.
 
-# Your CPU
+## Your CPU
 
 Modern **Intel** and **AMD CPUs** include hidden subsystems:
 
 - **Intel Management Engine (IME)**
 - **AMD Platform Security Processor (PSP)**
 
-These can **run even when your PC is "off"**, have **network access**, and have had **serious vulnerabilities** in the past. 
+These can **run even when your PC is "off"**, have **network access**, and have had **serious vulnerabilities** in the past.
 Many consider IME a **backdoor**.
 
 **Privacy Tips:**
+
 - Prefer **AMD CPUs** — fewer issues and no known remote backdoors.
 - **Disable IME/PSP** in BIOS (if possible).
 - Consider using **Coreboot/Libreboot** (if supported).
@@ -271,12 +286,13 @@ Many consider IME a **backdoor**.
 - Only use on **anonymous public networks**.
 
 **Check for vulnerabilities:**
+
 - **Linux**: [`spectre-meltdown-checker`](https://github.com/speed47/spectre-meltdown-checker)  
 - **Windows**: [InSpectre](https://www.grc.com/inspectre.htm)
 
-# OS and App Telemetry services
+## OS and App Telemetry services
 
-Most modern OSes — **Windows, macOS, Android, iOS, Ubuntu, Apps** — **collect telemetry by default**, even if you opt out. 
+Most modern OSes — **Windows, macOS, Android, iOS, Ubuntu, Apps** — **collect telemetry by default**, even if you opt out.
 This data can include:
 
 - Device identifiers  
@@ -289,12 +305,13 @@ This data can include:
 This data **can identify and track you**, even if anonymized.
 
 **What to Do:**
+
 - Use **privacy-focused OSes** (e.g., Linux distros like Qubes).
 - Block telemetry via firewalls, host files, or tools (e.g., **O&O ShutUp10++** for Windows).
 - Minimize app installs; prefer **FOSS alternatives**.
 - Avoid smartphones for sensitive activity.
 
-# Your Smart Devices
+## Your Smart Devices
 
 Smartphones and smart devices constantly track:
 
@@ -306,9 +323,9 @@ Other culprits: smartwatches, speakers, fitness trackers, cars, tags.
 
 **Leave all smart devices behind** for sensitive activities.
 
-# Yourself
+## Yourself
 
-## Your Metadata
+### Your Metadata
 
 **Metadata** = info **about** your activity, not the content.  
 Think: *who* you contacted, *when*, *where* — not *what* was said.
@@ -317,17 +334,20 @@ Example:
 You call an oncologist, then family — no one hears the call, but **the pattern speaks volumes**.
 
 **Metadata often includes:**
+
 - Your **location** (from phones, OS, apps, websites)  
 - **Time and duration** of activity  
 - **Devices** involved  
 - Your **contacts** and their frequency  
 
 This data is:
+
 - Used in **geofencing warrants** (authorities request all devices at a place/time)  
 - **Sold** to militaries and third parties  
 - **Correlated** across ISPs, VPNs, platforms (even if each holds only part of the picture)
 
 Even with a VPN:
+
 - The **VPN sees your traffic**, but not your ID  
 - The **ISP sees your ID**, but not your traffic  
   Together? They **could** trace you.
@@ -335,9 +355,9 @@ Even with a VPN:
 **Minimize metadata leakage.**  
 Use privacy tools + stay aware of what your devices reveal — even *without* your input.
 
-## Your Digital Footprint
+### Your Digital Footprint
 
-Your **digital footprint** is more than just what you post or search — it's **how** you behave online. 
+Your **digital footprint** is more than just what you post or search — it's **how** you behave online.
 And that behavior is *shockingly unique*.
 
 **Behavior = Identity**
@@ -354,7 +374,7 @@ Even things like:
 > “You use specific words or typos often”  
 ...can be used to **link your identity** across platforms.
 
-**How to Minimize Fingerprinting**
+**How to Minimize Fingerprinting:**
 
 Tech helps, but behavior matters most.
 
@@ -371,64 +391,72 @@ Tech helps, but behavior matters most.
 
 > You’re playing a role. Don’t leave behavioral breadcrumbs.
 
-## IRL and OSINT
+### IRL and OSINT
 
-Even with good privacy tools, sharing real-life details over time can expose you. 
+Even with good privacy tools, sharing real-life details over time can expose you.
 This is where **OSINT (Open-Source Intelligence)** comes in—collecting public data like forum posts, photos, metadata, and social media to link identities.
 
 **Example:**
-Hacker Jeremy Hammond was caught after casually mentioning personal facts online. 
+Hacker Jeremy Hammond was caught after casually mentioning personal facts online.
 Over time, those added up.
 
 **OSINT Resources:**
+
 - [OSINT Framework](https://osintframework.com)
 - [Awesome OSINT GitHub](https://github.com/jivoi/awesome-osint)
 - [ReconTool](https://recontool.org)
 
 **Stay Safe:**
+
 - Don’t reuse stories, habits, or writing styles
 - Avoid specific dates, places, or job info
 - Act like a completely different person online
 
-You should never share real individual experiences/details using your anonymous identities that could later lead to finding your real identity. 
+You should never share real individual experiences/details using your anonymous identities that could later lead to finding your real identity.
 
 > Every post is a puzzle piece. Don’t let them add up.
 
-## Your Face, Voice, Biometrics and Pictures
+### Your Face, Voice, Biometrics and Pictures
 
 Even if you're super careful, **your body can betray you**—especially your face.
 
 **Face Recognition Is Everywhere:**
+
 - Platforms like **Facebook, Google, Snapchat** use it to tag and organize photos.
 - Even **random selfies in public** can capture your face and link you to a location and timestamp.
 - Uploaded images often include metadata (EXIF), and even without it, AI can estimate **when and where** the photo was taken.
 
 **Want to See This in Action?**
+
 - Bellingcat’s guides & videos show how **facial recognition** and **geolocation** are used in real investigations:
   - [Facial Recognition in Investigations](https://www.youtube.com/watch?v=awY87q2Mr0E)
   - [Reverse Image Search Guide](https://www.bellingcat.com/resources/how-tos/2019/12/26/guide-to-using-reverse-image-search-for-investigations/)
   - [Sun & Shadow Geolocation](https://www.bellingcat.com/resources/2020/12/03/using-the-sun-and-the-shadows-for-geolocation/)
 
 **Bottom Line:**
+
 - **Avoid selfies** and **public appearances** if anonymity is critical.
 - Don’t share photos or recordings tied to your voice, face, or body.
 - Remember, once your image is online, it’s **almost impossible to take back**.
 
-## Gait Recognition and Other Long-Range Biometrics
+### Gait Recognition and Other Long-Range Biometrics
 
 Even if your **face is covered**, you're still not safe from modern surveillance.
 
-**Gait Recognition**
+**Gait Recognition:**
+
 - Cameras can ID you just by **how you move**—not just your steps, but how your **muscles shift**.
 - **Changing your walk doesn't work**—they see through that.
 - Best defense: **loose clothing** that hides muscle movements.
 
-**Other Biometrics**
+**Other Biometrics:**
+
 - **Earlobes**, **skull shape**, **eye behavior**, **lip movements**, and even **emotion analysis** from posture/face.
 - Facial coverings like balaclavas may **draw more attention** and still reveal enough to ID you.
 
 **Mitigation Tips**
 These only reduce risk—they don’t guarantee protection:
+
 - **Mask** – can defeat some face recognition.
 - **Baseball cap** – blocks top-down CCTV.
 - **Sunglasses** – hide eyes (try [Reflectacles](https://www.reflectacles.com/)).
@@ -436,46 +464,50 @@ These only reduce risk—they don’t guarantee protection:
 
 But remember: **trying too hard to hide** can make you more suspicious and lead to **human review**.
 
-**TL;DR:** Modern surveillance can identify you by **how you move, talk, look, and behave**. 
+**TL;DR:** Modern surveillance can identify you by **how you move, talk, look, and behave**.
 Tools exist to reduce exposure, but none guarantee invisibility—only mitigation.
 
-## Phishing and Social Engineering
+### Phishing and Social Engineering
 
-Phishing tricks you into revealing info by impersonating trusted sources—via fake emails, texts, or calls. 
+Phishing tricks you into revealing info by impersonating trusted sources—via fake emails, texts, or calls.
 It’s often used to steal credentials or install malware.
 
 **Defense:**
+
 - **Stay skeptical** of unexpected messages.
 - **Don’t click suspicious links** or download unknown files.
 - **Verify** requests through official channels.
 - Use **2FA** when possible.
 
-# Malware, exploits, and viruses
+## Malware, exploits, and viruses
 
-## Malware in your files/documents/e-mails
+### Malware in your files/documents/e-mails
 
 Malware can hide in common files (PDFs, images, videos, Office docs) using tricks like steganography or exploits in outdated software.
 Even tiny images in emails can leak your IP or trigger malicious downloads.
 
 **Defense:**
+
 - Avoid opening files from unknown sources.
 - Keep your software up to date.
 - Use **virtual machines** or **sandboxes** when handling risky files.
 
-## Malware and Exploits in your apps and services
+### Malware and Exploits in your apps and services
 
 Even privacy tools like Tor or Brave can have hidden exploits unknown to the developers but known to attackers.
 
 **How to Protect Yourself:**
+
 - **Never fully trust any app.**
 - **Always use the latest version** and verify downloads with checksums/signatures.
 - **Use virtual machines** to isolate risky apps and browsers.
 
-## Malicious USB Devices
+### Malicious USB Devices
 
-Cheap, widely available devices like "BadUSBs" can be used to silently hack your system just by being plugged in. 
+Cheap, widely available devices like "BadUSBs" can be used to silently hack your system just by being plugged in.
 
 They can:
+
 - Deploy malware  
 - Log your keystrokes  
 - Track your location  
@@ -484,6 +516,7 @@ They can:
 These can be hidden in cables, mice, keyboards, or USB sticks.
 
 **How to Protect Yourself:**
+
 - **Never plug unknown USB devices** into sensitive machines.  
 - **Use data-blocking adapters** for charging-only connections.  
 - **Disable USB ports in BIOS** if you don’t need them.  
@@ -491,27 +524,30 @@ These can be hidden in cables, mice, keyboards, or USB sticks.
 
 Even skilled users can't detect advanced USB-based malware without forensic tools.
 
-## Malware and backdoors in your Hardware Firmware and Operating System
+### Malware and backdoors in your Hardware Firmware and Operating System
 
 Malware can exist not just in apps—but deep within your **hardware, firmware**, and **operating system**.
 
 **Real-World Examples:**
+
 - **Intel IME**: A manufacturer-embedded backdoor allowing remote access.  
 - **Interdiction**: Attackers insert malware *before* hardware reaches you (e.g., in transit).  
 - **Rootkits**: Stealthy malware that runs deeper than the regular operating system.  
 
 **Mitigation (though limited):**
+
 - Protect physical access to your hardware  
 - Reflash firmware or BIOS from a trusted source if possible  
 - Use devices that allow disabling manufacturer backdoors (e.g., Coreboot-supported hardware)
 
 Once malware is in firmware or hardware, **detection and removal become extremely difficult**—especially if it’s by the manufacturer itself.
 
-## Your files, documents, pictures, and videos
+### Your files, documents, pictures, and videos
 
 Most files—especially **images and videos**—contain hidden metadata that can reveal sensitive details.
 
 **What kind of data?**
+
 - **EXIF** in images: GPS location, camera model, time/date
 - **Videos**: Can include GPS data, recording device info  
 - **Documents**: Author name, edit history, software used
@@ -520,15 +556,16 @@ Most files—especially **images and videos**—contain hidden metadata that can
 Even if metadata doesn’t name you, it can show **where and when** you were somewhere—info that can be cross-referenced with other sources like CCTV or online posts.
 
 **Mitigation:**
+
 - **Strip metadata** before uploading (using tools like `exiftool`, `mat2`, or built-in settings)
 - **Always** double-check all files—even plain text—for hidden data
 
-Be meticulous. 
+Be meticulous.
 Leaked metadata has unmasked identities before—don’t let it happen to you.
 
-## Watermarking
+### Watermarking
 
-### Pictures, Video and Audio¶
+#### Pictures, Video and Audio¶
 
 Even if there are **no visible watermarks**, files from commercial platforms may include **invisible watermarks** to track or identify you.
 
@@ -539,52 +576,53 @@ Even if there are **no visible watermarks**, files from commercial platforms may
 
 **Bottom line**: Avoid using known commercial tools or double-check their watermarking options if you're handling sensitive content.
 
-### Printer Watermarking
+#### Printer Watermarking
 
 Yes, **your printer might betray you**, even offline.
 
 - Many printers print **invisible dots** that identify the model and possibly the print time.
-- This is called **printer steganography** 
+- This is called **printer steganography**
 
 **Mitigation tips**:
+
 - Print in **black and white only** (color often triggers watermarking).
 - Use the EFF’s list of printers **without tracking dots**:  
   [EFF printer list](https://www.eff.org/pages/list-printers-which-do-or-do-not-display-tracking-dots)
 
 Always assume your media might be watermarked unless you’ve verified otherwise.
 
-## Pixelized or Blurred Information
+### Pixelized or Blurred Information
 
 Blurring or pixelating sensitive data **is not secure**. Adversaries can often **recover** the original information.
 
-
-**Why blurring/pixelizing fails**
+**Why blurring/pixelizing fails:**
 
 - Tools like **Depix** [GitHub](https://github.com/beurtschipper/Depix) can **reverse blurred or pixelated text**, especially if a known font or structure is used.
 - Deblurring/pixel recovery is common in **OSINT** (Open Source Intelligence).
 - Even **photo enhancement** tools (like MyHeritage's [Photo Enhancer](https://www.myheritage.com/photo-enhancer)) can be enough to **reveal or infer details**.
 - Videos aren't safe either — recovery techniques can also work on **video frames** [Video de-pixelation blog](https://positive.security/blog/video-depixelation)
 
-
-**Best practice**
+**Best practice:**
 
 > **Do not blur. Do not pixelate. Always use solid black redactions.**
 
-That means: crop or overlay black boxes permanently. 
+That means: crop or overlay black boxes permanently.
 Never rely on cosmetic effects to hide info — it's not enough.
 
-# Your Crypto Transactions
+## Your Crypto Transactions
 
-**The Myth: “Crypto = Anonymous”**
+**The Myth: “Crypto = Anonymous”:**
 
 **Wrong.** Most cryptocurrencies like **Bitcoin** and **Ethereum** are **pseudonymous** — not anonymous.
 
 Every transaction is:
+
 - **Publicly visible** on a blockchain.
 - **Permanently recorded**.
 - **Linkable** via patterns, reused addresses, exchange logs, IP traces, etc.
 
-**Where deanonymization happens**
+**Where deanonymization happens:**
+
 - **Creating a wallet** via Tor or VPN → stays anonymous.
 - **Converting fiat** (EUR/USD) to crypto → not anonymous due to **KYC** laws at exchanges (Coinbase, Kraken, Binance, etc).
 - **Cashing out crypto** to a bank → easily traced.
@@ -593,73 +631,81 @@ Every transaction is:
   - Demixing possibilities
   - Legal gray areas (money laundering risks)
 
-**Better Option: Monero (XMR)**
+**Better Option: Monero (XMR):**
+
 - **Privacy by design**:
   - Ring signatures
   - Stealth addresses
   - Confidential transactions
 - Still not *perfect* — but the best available for privacy-conscious users.
 
-# Your Cloud Backup and Sync Services
+## Your Cloud Backup and Sync Services
 
-Many cloud services like iCloud, Google Drive, OneDrive, and Dropbox claim to use encryption, but they still hold the keys to your data, meaning they can access it if needed. 
+Many cloud services like iCloud, Google Drive, OneDrive, and Dropbox claim to use encryption, but they still hold the keys to your data, meaning they can access it if needed.
 They also scan and index your files for analytics or legal reasons.
 
 **What You Can Do:**
+
 1. Encrypt your data before uploading.
 2. Use zero-knowledge services like Tresorit or Proton Drive.
 3. **Avoid cloud backups for sensitive data.**
 
-# Microarchitectural Side-channel Deanonymization Attacks
+## Microarchitectural Side-channel Deanonymization Attacks
 
-A recently published attack can link your anonymous identity to a known alias, like a public Twitter handle, breaking anonymity—even with good OPSEC. 
+A recently published attack can link your anonymous identity to a known alias, like a public Twitter handle, breaking anonymity—even with good OPSEC.
 
 **How It Works**
-The attack uses invisible iframes and font fingerprinting to detect what fonts are installed on your system. 
-These patterns are unique enough to track users across sessions and link multiple identities together. 
+The attack uses invisible iframes and font fingerprinting to detect what fonts are installed on your system.
+These patterns are unique enough to track users across sessions and link multiple identities together.
 Even privacy features like “Do Not Track” won’t stop it.
 
-**Mitigation**
+**Mitigation:**
+
 - **Use NoScript Browser Extension** (recommended): Blocks scripts and prevents these attacks.
 - **Tor Browser** already blocks the attack by default (via NoScript 11.4.8+).
 
-**Important Notes**
+**Important Notes:**
+
 - Closing all activity tied to your public identity before using an anonymous one is essential.
 - Using separate browsers or VMs alone does not prevent this attack.
 
-
-# Local Data Leaks and Forensics
+## Local Data Leaks and Forensics
 
 Law enforcement can extract data from phones and laptops—even if encrypted. This can happen during investigations or random checks like border crossings.
 
 **Smartphones**
 Tools like GrayKey and Cellebrite let police unlock and analyze devices.  
 Read more:  
+
 - [UpTurn: Mass Extraction](https://www.upturn.org/reports/2020/mass-extraction/)  
 - [NYT: Police Can Break Into Your Phone](https://www.nytimes.com/2020/10/21/technology/iphone-encryption-police.html)  
 - [Vice: iPhones Can Be Unlocked](https://www.vice.com/en/article/vbxxxd/unlock-iphone-ios11-graykey-grayshift-police)
 
-**Forensic Tools**
+**Forensic Tools:**
+
 - [EnCase Guide (PDF)](http://encase-docs.opentext.com/documentation/encase/forensic/8.07/Content/Resources/External%20Files/EnCase%20Forensic%20v8.07%20User%20Guide.pdf)  
 - [FTK Toolkit](https://accessdata.com/products-services/forensic-toolkit-ftk)  
 - [SANS DFIR Videos](https://www.youtube.com/c/SANSDigitalForensics/videos)
 
-**OS Security**
+**OS Security:**
+
 - [Johns Hopkins: Mobile Security Overview](https://securephones.io/main.html)
 
 **Laptops**
 Use full disk encryption, virtualization, and compartmentalization to reduce risk.
 
-# Bad Cryptography
+## Bad Cryptography
 
 "Don’t roll your own crypto" is a common warning for good reason—crypto is hard to get right. Strong cryptography takes years of research, is open source, peer-reviewed, and tested in the real world.
 
 **Avoid apps or services that:**
+
 - Use custom or closed-source crypto
 - Modify existing algorithms
 - Use terms like “military-grade encryption” without transparency
 
 **Use:**
+
 - **Hashes**: SHA-3, BLAKE2 (ok: SHA-256/512; avoid: SHA-1, MD5)
 - **Disk encryption**: AES-256 with HMAC-SHA-2/3, ChaCha20, Serpent, TwoFish
 - **Password storage**: Argon2 (i/id), scrypt (ok: bcrypt; last resort: PBKDF2; avoid: SHA, MD5)
@@ -667,33 +713,35 @@ Use full disk encryption, virtualization, and compartmentalization to reduce ris
 - **Signing**: ed25519/ECDSA + ECDH (ok: RSA 4096; avoid: RSA 2048)
 - **SSH**: ED25519 or RSA 4096
 
-# No-Log Policies
+## No-Log Policies
 
 Many VPN and email providers claim to have "no-log" policies, but they’re still legal entities and can be compelled to start logging by court orders—often without your knowledge.
 
 **Key takeaways:**
+
 - Providers can be forced to log data, regardless of their policies.
 - You won’t be notified if you're being monitored.
 - Warrant canaries exist but remain unproven in court.
 
 **Mitigation:**
+
 - Use VPNs that accept **cash or Monero**.
 - Always **use VPNs over Tor** to hide your identity from the provider.
 - Don’t rely solely on provider claims—assume they can be compromised.
 
-Trust no one. 
+Trust no one.
 Design your privacy stack under the assumption that "no-log" might just mean "not yet logging."
 
-# Some Advanced targeted techniques 
+## Some Advanced targeted techniques
 
 **Read the resources linked on the official guide!**
 
 Even if you have great digital hygiene, **high-skilled adversaries** can still breach your defenses—especially if they know where your devices are. These attacks often involve **physical access, hidden malware, or exploiting side channels** (like sound, light, vibrations).
 
-
 **Examples of Advanced Attacks:**
 
 **With Malware:**
+
 - **Router Infection:** Send data out via a compromised router.
 - **Light/Camera Attacks:** Watch light variations from keyboards or displays to extract data.
 - **Sound-Based Attacks:** Use fan noise, HDD noise, or ultrasonic sounds to transmit information.
@@ -702,18 +750,18 @@ Even if you have great digital hygiene, **high-skilled adversaries** can still b
 - **RAM Wi-Fi Hack:** Turn RAM into a covert Wi-Fi transmitter (!).
 
 **Without Malware:**
+
 - **Wall Imaging:** Use tiny wall vibrations to map people’s positions.
 - **Snack Bag Reflections:** Use reflections on shiny surfaces to reconstruct a room.
 - **Floor Vibrations:** Track people and emotions through footsteps.
 - **Light Bulb Spying:** "Hear" conversations by observing vibrating light bulbs.
 
-
 **Realistic Threat Level:**  
 Most individuals aren't targeted like this.  
 **However**, **nation-states**, **corporate espionage**, or **high-value targets** can be.
 
-
 **Mitigations:**
+
 - Use devices only on **trusted power sources**.
 - Keep devices away from **cameras** and **microphones**.
 - Use **soundproofed rooms** and **Faraday cages**.
@@ -721,11 +769,12 @@ Most individuals aren't targeted like this.
 - **Buy hardware offline** from random stores.
 - **Limit physical access** to your machines.
 
-# Some bonus resources
+## Some bonus resources
 
 **Read the resources linked on the official guide!**
 
 **Bonus Resources for Deeper Learning:**
+
 - [Whonix Data Collection Techniques](https://www.whonix.org/wiki/Data_Collection_Techniques)
 - [ToS;DR: Terms of Service, Didn’t Read](https://tosdr.org/)
 - [EFF Privacy Advocacy](https://www.eff.org/issues/privacy)
@@ -734,8 +783,8 @@ Most individuals aren't targeted like this.
 - [Michael Bazzell's OSINT Techniques Book](https://inteltechniques.com/book1.html)
 - [Freehaven Anonymity Bibliography](https://www.freehaven.net/anonbib/date.html)
 
-
 **Transparency Reports (How often companies hand over user data):**
+
 - [Google](https://transparencyreport.google.com/user-data/overview)
 - [Facebook](https://transparency.facebook.com/)
 - [Apple](https://www.apple.com/legal/transparency/)
@@ -744,12 +793,11 @@ Most individuals aren't targeted like this.
 - [GitHub](https://github.blog/2021-02-25-2020-transparency-report/)
 - ... and many more.
 
-
 **Bottom line:**  
 If your adversary is skilled enough and determined enough, no setup is 100% safe.  
 **Stay paranoid, stay careful, but don’t go crazy unless you have to.**
 
-# General Preparations
+## General Preparations
 
 Personally, in the context of this guide, it is also interesting to have a look at your security model.
 And in this context,we only have one to recommend:
@@ -761,10 +809,10 @@ Here are some various resources about what Zero-Trust Security is:
 - [DEFCON, Zero Trust a Vision for Securing Cloud](https://www.youtube.com/watch?v=euSsqXO53GY)
 - [From the NSA themselves, Embracing a Zero Trust Security Model](https://media.defense.gov/2021/Feb/25/2002588479/-1/-1/0/CSI_EMBRACING_ZT_SECURITY_MODEL_UOO115131-21.PDF)
 
-## Picking your route
+### Picking your route
 
-This guide will only go down the [Qubes OS route](https://anonymousplanet.org/guide/#the-qubes-route) as this is probably the most secure.
-If you need something immediately have a look at the [Tails route](https://anonymousplanet.org/guide/#the-tails-route).
+This guide will only go down the [Qubes OS route](https://anonymousplanet.org/guide/##the-qubes-route) as this is probably the most secure.
+If you need something immediately have a look at the [Tails route](https://anonymousplanet.org/guide/##the-tails-route).
 
 Note that the Qubes route will afford several investments such as a dedicated laptop.
 
@@ -772,11 +820,11 @@ Note that the Qubes route will afford several investments such as a dedicated la
 
 ### Getting used to using better passwords
 
-**Passphrases > Passwords**
+**Passphrases > Passwords:**
 
 Passphrases (like `purple-fish-drum-sky`) are more secure and easier to remember than complex passwords (`Tr0ub4dor&3`).
 
-**Tips for Strong Passphrases**
+**Tips for Strong Passphrases:**
 
 - Use **4+ random words** (more = better).
 - Avoid **quotes**, **personal info**, and **common words** only.
@@ -787,11 +835,11 @@ Use [KeePassXC](https://keepassxc.org/) to store long, unique passwords for ever
 
 Try [useapassphrase.com](https://www.useapassphrase.com/) for examples and entropy.
 
-##  Getting an Anonymous Phone Number
+### Getting an Anonymous Phone Number
 
 Skip this if you don't need to register anonymously on platforms that require phone numbers.
 
-### Burner Phone
+#### Burner Phone
 
 - **Buy a basic phone** (ideally a dumbphone with removable battery) **with cash** at a flea market/shop **without CCTV**.
 - **Leave your real phone on at home** to avoid metadata leaks.
@@ -800,27 +848,27 @@ Skip this if you don't need to register anonymously on platforms that require ph
 - Disable Bluetooth, never connect to Wi-Fi, and test the phone elsewhere.
 - Power the phone off, remove the battery (if possible) and put it in a farrady bag when not in use.
 
-### Anonymous Prepaid SIM
+#### Anonymous Prepaid SIM
 
 - Harder to get due to ID laws (check [SIM registration wiki](https://prepaid-data-sim-card.fandom.com/wiki/Registration_Policies_Per_Country)).
 - **Buy with cash** and **no ID**, avoid cameras.
 - Recommended: **GiffGaff (UK)** — no ID, lets you change number twice.
 - **Power off the burner** after activation/top-up and before returning home.
 
-### Online Phone Numbers (Riskier)
+#### Online Phone Numbers (Riskier)
 
 - Only use after securing your anonymous setup.
 - Best paid options (accept Monero, no ID):
   - [crypton.sh](https://crypton.sh)
   - [virtualsim.net](https://virtualsim.net)
 - Riskier/free options (use at your own risk):
-  - https://oksms.org
-  - https://sms24.me
+  - <https://oksms.org>
+  - <https://sms24.me>
 - It is more convenient, cheaper, and less risky to just get a pre-paid SIM card from one of the physical places that still sell them for cash without ID.
 
 > Avoid shady marketplaces and never use your real identity.
 
-## Get a USB key
+### Get a USB key
 
 **Skip this step if you have no intention of creating anonymous accounts on most mainstream platforms, but you will want anonymous browsing; or if the platforms which you will use allow registration without a phone number.**
 
