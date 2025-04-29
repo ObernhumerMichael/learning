@@ -61,6 +61,15 @@ Keep in mind that none of these methods are foolproof, and each comes with poten
 - [No-Log Policies](#no-log-policies)
 - [Some Advanced targeted techniques](#some-advanced-targeted-techniques)
 - [Some bonus resources](#some-bonus-resources)
+- [General Preparations](#general-preparations)
+  - [Picking your route](#picking-your-route)
+  - [Steps for all routes](#steps-for-all-routes)
+    - [Getting used to using better passwords](#getting-used-to-using-better-passwords)
+  - [Getting an Anonymous Phone Number](#getting-an-anonymous-phone-number)
+    - [Burner Phone](#burner-phone)
+    - [Anonymous Prepaid SIM](#anonymous-prepaid-sim)
+    - [Online Phone Numbers (Riskier)](#online-phone-numbers-riskier)
+  - [Get a USB key](#get-a-usb-key)
 
 # Your Network
 
@@ -739,3 +748,82 @@ Most individuals aren't targeted like this.
 **Bottom line:**  
 If your adversary is skilled enough and determined enough, no setup is 100% safe.  
 **Stay paranoid, stay careful, but don’t go crazy unless you have to.**
+
+# General Preparations
+
+Personally, in the context of this guide, it is also interesting to have a look at your security model.
+And in this context,we only have one to recommend:
+
+Zero-Trust Security ("Never trust, always verify").
+
+Here are some various resources about what Zero-Trust Security is:
+
+- [DEFCON, Zero Trust a Vision for Securing Cloud](https://www.youtube.com/watch?v=euSsqXO53GY)
+- [From the NSA themselves, Embracing a Zero Trust Security Model](https://media.defense.gov/2021/Feb/25/2002588479/-1/-1/0/CSI_EMBRACING_ZT_SECURITY_MODEL_UOO115131-21.PDF)
+
+## Picking your route
+
+This guide will only go down the [Qubes OS route](https://anonymousplanet.org/guide/#the-qubes-route) as this is probably the most secure.
+If you need something immediately have a look at the [Tails route](https://anonymousplanet.org/guide/#the-tails-route).
+
+Note that the Qubes route will afford several investments such as a dedicated laptop.
+
+## Steps for all routes
+
+### Getting used to using better passwords
+
+**Passphrases > Passwords**
+
+Passphrases (like `purple-fish-drum-sky`) are more secure and easier to remember than complex passwords (`Tr0ub4dor&3`).
+
+**Tips for Strong Passphrases**
+
+- Use **4+ random words** (more = better).
+- Avoid **quotes**, **personal info**, and **common words** only.
+- Make it **easy to remember and type**.
+- **Don’t reuse** across accounts.
+
+Use [KeePassXC](https://keepassxc.org/) to store long, unique passwords for every service locally.
+
+Try [useapassphrase.com](https://www.useapassphrase.com/) for examples and entropy.
+
+##  Getting an Anonymous Phone Number
+
+Skip this if you don't need to register anonymously on platforms that require phone numbers.
+
+### Burner Phone
+
+- **Buy a basic phone** (ideally a dumbphone with removable battery) **with cash** at a flea market/shop **without CCTV**.
+- **Leave your real phone on at home** to avoid metadata leaks.
+  - If possible, leave your phone doing something (for example, watching YouTube on auto-play) to obscure the metadata trail further.
+- **Never turn the burner on at home or near your real phone**.
+- Disable Bluetooth, never connect to Wi-Fi, and test the phone elsewhere.
+- Power the phone off, remove the battery (if possible) and put it in a farrady bag when not in use.
+
+### Anonymous Prepaid SIM
+
+- Harder to get due to ID laws (check [SIM registration wiki](https://prepaid-data-sim-card.fandom.com/wiki/Registration_Policies_Per_Country)).
+- **Buy with cash** and **no ID**, avoid cameras.
+- Recommended: **GiffGaff (UK)** — no ID, lets you change number twice.
+- **Power off the burner** after activation/top-up and before returning home.
+
+### Online Phone Numbers (Riskier)
+
+- Only use after securing your anonymous setup.
+- Best paid options (accept Monero, no ID):
+  - [crypton.sh](https://crypton.sh)
+  - [virtualsim.net](https://virtualsim.net)
+- Riskier/free options (use at your own risk):
+  - https://oksms.org
+  - https://sms24.me
+- It is more convenient, cheaper, and less risky to just get a pre-paid SIM card from one of the physical places that still sell them for cash without ID.
+
+> Avoid shady marketplaces and never use your real identity.
+
+## Get a USB key
+
+**Skip this step if you have no intention of creating anonymous accounts on most mainstream platforms, but you will want anonymous browsing; or if the platforms which you will use allow registration without a phone number.**
+
+Get at least one or two decent size generic USB keys (at least 16GB but we would recommend 32GB).
+Please do not buy or use gimmicky self-encrypting devices.
+Some might be very efficient but many are gimmicky gadgets that offer no real protection
