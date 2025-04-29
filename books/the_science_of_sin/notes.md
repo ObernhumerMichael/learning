@@ -170,6 +170,9 @@ True sloth isn’t about necessary rest but about shirking meaningful activity, 
 - Greed’s status as a capital vice is all about banishing **excessive** desire for wealth from society.
 - Someone that has great wealth, often uses the power that comes with it to subordinate others.
 - greed is the ultimate cause of all fraud, corruption and theft
+- Humans would rather turn down free money than let another person get away with acting unfairly.
+- Having a vast fortune may foster a sense of being insulated from the usual social or legal consequences of getting caught out.
+- The tendency to cheat others out of their fair share appears to depend on the perception of how serious the consequences of getting caught are likely to be.
 
 ## Cues / Questions / Keywords
 
