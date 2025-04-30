@@ -1,4 +1,6 @@
-# In the Beginning
+# Quiz
+
+## In the Beginning
 
 1. What is Neuroplasticity?
    - Neuroplasticity describes the process by which more or less anything we do regularly and intensively, and sustain over long periods of time, induces physical changes in the very fabric of our brain.
@@ -15,7 +17,7 @@
 1. Is science sufficient to inspire us to do the things that keep us happy and healthy?
    - ponder
 
-# Pride
+## Pride
 
 1. Why do we need pride?
    - Pride helps use conquering our fears and stay motivated in the face of adversaries.
@@ -24,14 +26,14 @@
    - exacerbate other deadly sins
 1. When is pride a sin?
    - The sin of pride is formed when a person beliefs they are superior to all others.
-1. How to foster narcissim through parenting?
+1. How to foster narcissism through parenting?
    - Neglectful- & Helicopter parents prevent the child from forming a healthy independent sense of self.
    - When feedback is framed in absolute terms that sound much more permanent: "You are such a naughty child"
 1. How does the internet nurture narcissism?
-   - it promots vanity which is a contributing factor of narcissism
-   - e.g. through social media, realitiy TV, stars...
+   - it promotes vanity which is a contributing factor of narcissism
+   - e.g. through social media, realty TV, stars...
 
-# Gluttony
+## Gluttony
 
 1. What is gluttony?
    - Gluttony refers specifically to gulping down food and/or drink in extremely large quantities.
@@ -47,21 +49,21 @@
    - Obesity gradually alters the hypothalamus, which regulates appetite, increasing the drive to seek out food.
    - This change is irreversible, regardless of exercise or diet.
 
-# Lust
+## Lust
 
 1. What is white brain matter?
    - white brain matter = information superhighways (150 m/s instead of normal 10 m/s)
-1. How does the brain of a paedophile differ from a normal one?
-   - There are significant differences in the white matter tracts of paedophile brains compared to non-paedophile ones.
-   - The 'sexual response network' brain areas that govern healthy sexual responses in the rest of us seem to be hyperactive in the paedophile, even at rest.
+1. How does the brain of a pedophile differ from a normal one?
+   - There are significant differences in the white matter tracts of pedophile brains compared to non-pedophile ones.
+   - The 'sexual response network' brain areas that govern healthy sexual responses in the rest of us seem to be hyperactive in the pedophile, even at rest.
 1. How does the attractiveness ratings of men change in the different menstrual cycles?
    - During the fertile phase of the cycle, the attractiveness ratings the women gave for more masculine-looking faces, bodies and deeper-sounding voices increased slightly.
    - On the other hand, during the non-fertile weeks of the menstrual cycle, the attractiveness ratings for the more feminine male faces, bodies and voices increased slightly.
 
-# Sloth
+## Sloth
 
-1. When can solth be virtuous?
-   - When the promise of future sloth, incentivises us to work harder right now.
+1. When can sloth be virtuous?
+   - When the promise of future sloth, incentives us to work harder right now.
 1. How does long-term unemployment impact our personality?
    - It has a negative impact on conscientiousness.
 1. What is sloth?
