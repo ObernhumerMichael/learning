@@ -175,7 +175,25 @@ True sloth isn’t about necessary rest but about shirking meaningful activity, 
 - Humans would rather turn down free money than let another person get away with acting unfairly.
 - Having a vast fortune may foster a sense of being insulated from the usual social or legal consequences of getting caught out.
 - The tendency to cheat others out of their fair share appears to depend on the perception of how serious the consequences of getting caught are likely to be.
+- Focusing on short-term profits in a system that will inevitably go horribly wrong in the long run is possibly one of the most worrying aspects of the sin of greed operating on a global scale.
+- Globalization interferes with the local mechanisms that operate to control individual greed on a smaller scale, rendering them ineffective.
 
 ### Cues / Questions / Keywords
 
+- How does wealth influence greed?
+- origin of fraud, corruption and theft
+- By what is the tendency to cheat others out of their fair share impacted by.
+- How can greed operate on a global scale.
+- In the Ultimatum Game, what surprising behavior did people show when faced with an unfair split?
+- Is greed instinctive or does it require deliberate thought?
+- What effect does wealth and formal education in economics have on people's tendency toward greed?
+- What is necessary to prevent greed from causing large-scale harm?
+
 ### Summary
+
+Greed has been condemned by religions and philosophers but also praised in modern economics as a driver of ambition.
+It manifests in both cultural symbols and real-world frauds.
+Neuroscience shows humans prefer fairness instinctively, but greed arises through deliberate thought.
+Wealth and certain educations can amplify greed by dulling social consequences.
+Globally, unchecked greed damages societies and ecosystems.
+Solutions lie in stricter regulations and restoring consequences for unethical actions.

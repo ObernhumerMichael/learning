@@ -68,3 +68,21 @@
    - It has a negative impact on conscientiousness.
 1. What is sloth?
    - Sloth: the opportunity to do something productive must have been shirked willingly, under circumstances where not bothering was a choice freely made.
+
+## Greed
+
+1. How does wealth influence greed?
+   - Having a vast fortune may foster a sense of being insulated from the usual social or legal consequences of getting caught out.
+1. By what is the tendency to cheat others out of their fair share impacted by.
+   - The tendency to cheat others out of their fair share appears to depend on the perception of how serious the consequences of getting caught are likely to be.
+1. How can greed operate on a global scale.
+   - Focusing on short-term profits in a system that will inevitably go horribly wrong in the long run is possibly one of the most worrying aspects of the sin of greed operating on a global scale.
+   - Globalization interferes with the local mechanisms that operate to control individual greed on a smaller scale, rendering them ineffective.
+1. In the Ultimatum Game, what surprising behavior did people show when faced with an unfair split?
+   - People often rejected unfair offers, even if it meant they got nothing, demonstrating a preference for fairness over personal gain.
+1. Is greed instinctive or does it require deliberate thought?
+   - Greed is not instinctive; it requires conscious deliberation. People tend to act fairly when making quick decisions but become more selfish when they have time to think.
+1. What effect does wealth and formal education in economics have on people's tendency toward greed?
+   - Both wealth and economic education can increase greed by justifying antisocial decisions, reducing feelings of guilt, and making dishonest behavior seem more acceptable.
+1. What is necessary to prevent greed from causing large-scale harm?
+   - Strong legislation against corruption, accountability for the powerful, and systems that punish greed and reward cooperation.
