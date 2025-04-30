@@ -73,6 +73,10 @@ Keep in mind that none of these methods are foolproof, and each comes with poten
       - [Anonymous Prepaid SIM](#anonymous-prepaid-sim)
       - [Online Phone Numbers (Riskier)](#online-phone-numbers-riskier)
     - [Get a USB key](#get-a-usb-key)
+    - [Find some safe places with decent public Wi-Fi](#find-some-safe-places-with-decent-public-wi-fi)
+  - [Steps for all routes except Tor and Tails](#steps-for-all-routes-except-tor-and-tails)
+    - [Get a dedicated laptop](#get-a-dedicated-laptop)
+    - [Some laptop recommendations](#some-laptop-recommendations)
 
 ## Your Network
 
@@ -875,3 +879,76 @@ Skip this if you don't need to register anonymously on platforms that require ph
 Get at least one or two decent size generic USB keys (at least 16GB but we would recommend 32GB).
 Please do not buy or use gimmicky self-encrypting devices.
 Some might be very efficient but many are gimmicky gadgets that offer no real protection
+
+### Find some safe places with decent public Wi-Fi
+
+You’ll need **3-5 different public places** with **free Wi-Fi** (no ID/signup) where you can go unnoticed.
+
+**Avoid Places Like:**
+
+- **Starbucks** (CCTV, pay-for-Wi-Fi with traceable payments)
+- **Tourist hotspots** (high chance of appearing in photos/videos with location data)
+
+**Look For:**
+
+- Cafes or libraries **without cameras**
+- Parks or public squares with **open Wi-Fi**
+- Hotels with guest Wi-Fi (accessed discreetly)
+- Any spot where you can stay for a while **without standing out**
+
+**Tips:**
+
+- **Stay aware** of people filming (TikToks, selfies, etc.)
+- Don’t use the same spot repeatedly—**rotate locations**
+- If possible, **connect from a safe distance** using a long-range Wi-Fi antenna
+
+## Steps for all routes except Tor and Tails
+
+### Get a dedicated laptop
+
+For best anonymity, use a **separate laptop** that can’t be easily linked to you.
+
+**Ideal Laptop:**
+
+- **Bought with cash** (use same precautions as for burner phone/SIM)
+- **Secondhand** (no ties to your identity — especially for MacBooks)
+- **Freshly installed OS** (Windows, Linux, or macOS)
+  - No prior use for personal tasks
+  - For Windows: don’t activate, reinstall without product key
+
+**Why?**
+
+- Avoid leaks from **hardware IDs** (MAC address, Bluetooth, product keys)
+- Prevent tracking if **disposed** later
+- Avoid OS telemetry linking it back to you
+
+**Specs to Aim For:**
+
+- **250GB+ storage** (ideally 1TB+)
+- **6GB+ RAM** (8–16GB ideal for virtual machines)
+- Battery lasting **a few hours**
+- HDD or SSD — both workable
+
+### Some laptop recommendations
+
+Go for a **business-grade** laptop (not consumer/gaming models).  
+Example: **Lenovo ThinkPad** (highly recommended).
+
+**Why Business Laptops?**
+
+- **Better security features** (especially in BIOS/UEFI)
+- **Longer support** and updates
+- **More control** over hardware and security settings
+
+**Look For:**
+
+- Custom **Secure Boot** settings
+- BIOS-level **HDD/SSD passwords**
+- Ability to **disable** Intel ME / AMD PSP  
+  - AMD is slightly safer (audited PSP)  
+  - But **Intel** is better if you plan to run **Qubes OS** as it does not support AMD with their anti-evil-maid system
+- Built-in **secure wipe** tools (great for SSDs)
+- Toggle for **USB, Wi-Fi, Bluetooth, Camera, Mic**
+- Stronger **virtualization** security
+- **Anti-tamper** features
+- Models supported by **Libreboot** (optional for advanced users)
