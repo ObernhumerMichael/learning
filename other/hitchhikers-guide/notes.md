@@ -77,6 +77,10 @@ Keep in mind that none of these methods are foolproof, and each comes with poten
   - [Steps for all routes except Tor and Tails](#steps-for-all-routes-except-tor-and-tails)
     - [Get a dedicated laptop](#get-a-dedicated-laptop)
     - [Some laptop recommendations](#some-laptop-recommendations)
+    - [Bios/UEFI/Firmware Settings of your laptop](#biosuefifirmware-settings-of-your-laptop)
+    - [Physically Tamper protect your laptop](#physically-tamper-protect-your-laptop)
+  - [The Qubes Route](#the-qubes-route)
+    - [Pick your connectivity method](#pick-your-connectivity-method)
 
 ## Your Network
 
@@ -952,3 +956,153 @@ Example: **Lenovo ThinkPad** (highly recommended).
 - Stronger **virtualization** security
 - **Anti-tamper** features
 - Models supported by **Libreboot** (optional for advanced users)
+
+### Bios/UEFI/Firmware Settings of your laptop
+
+Access your BIOS/UEFI by pressing a key like **F1, F2, Del** at boot (check your brand).  
+[Guide from HP (Archive)](https://store.hp.com/us/en/tech-takes/how-to-enter-bios-setup-windows-pcs)
+
+**Disable:**
+
+- **Bluetooth**
+- **Biometrics** (fingerprint scanners)  
+  *(optional: use only pre-boot, not for BIOS or OS login)*
+- **Webcam & Microphone**
+- **USB/HDMI/Ports** (Ethernet, SD, Firewire) — *disable if possible*
+- **Intel ME** (*usually not possible*)
+- **AMD PSP** (*sometimes possible on AMD laptops*)
+
+**Enable & Set Up:**
+
+- **BIOS/UEFI Password**  
+  Use a long passphrase and require it for:  
+  - Accessing BIOS/UEFI  
+  - Changing boot order  
+  - Startup/power-on  
+- **HDD/SSD Password**  
+  Adds protection even if disk is removed
+- **Prevent Boot Options Access** without BIOS password
+- **Secure Wipe Tool** (check if available)
+
+**Secure Boot (Optional Based on OS):**
+
+- **Keep ON** for Windows/Linux  
+- **Turn OFF** if using **Qubes OS**
+- Use **custom mode** if possible to remove default keys and only allow your signed OS bootloader
+
+**About Secure Boot:**
+
+- Protects from **unauthorized bootloaders** (e.g., with malware)
+- Does *not* encrypt your disk (use **Full Disk Encryption** for that)
+- Not foolproof — can be bypassed on old/compromised systems
+- Recommended to **keep it ON** for extra layer of security (except with Qubes OS)
+
+### Physically Tamper protect your laptop
+
+At some point, your laptop will be left unattended. To make tampering harder and detectable, consider these simple methods:
+
+**Why It Matters:**
+
+- Attackers can easily install hardware keyloggers or clone your hard drive (even if encrypted).
+
+**Nail Polish + Glitter (Visible Seal):**  
+
+- Apply over screws and seams. Any tampering breaks the pattern.  
+- Guide: [Mullvad’s method (archive)](https://mullvad.net/en/help/how-tamper-protect-laptop/).  
+- Downside: noticeable, may attract attention.
+
+**Subtle Methods:**
+
+- Take close-up photos of screw heads. Later compare for tool marks or changes.
+- Put a tiny drop of candle wax inside screw heads or USB ports. Tampering will disturb the wax.
+
+**Best Practices:**
+
+- Regularly inspect your laptop if in risky environments.
+- Combine this with BIOS passwords and full disk encryption for stronger protection.
+
+## The Qubes Route
+
+Qubes OS is a security-focused, open-source operating system built on Xen virtualization. Instead of running apps directly, each app or group of apps runs in its own isolated virtual machine ("Qube"), providing strong compartmentalization. It also integrates Whonix for privacy and anonymity by default.
+
+**Learn More:**
+
+- [Qubes OS Intro](https://www.qubes-os.org/intro/)
+- [Getting Started Guide](https://www.qubes-os.org/doc/getting-started/)
+- [Hardware Compatibility List](https://www.qubes-os.org/hcl/)
+
+Recommended videos:
+
+- *Life Behind the Tinfoil* — Konstantin Ryabitsev  
+- *6 Months with Qubes OS* — Matty McFatty  
+- *Qubes OS: How it works*  
+
+**Pros:**
+
+- Strong isolation and security
+- Recommended by experts (e.g., Edward Snowden, PrivacyGuides)
+
+**Cons:**
+
+- High hardware requirements:  
+  - 16GB RAM recommended (24-32GB ideal)  
+  - Less than 8GB is not practical  
+- Hardware compatibility can be tricky (check the [HCL](https://www.qubes-os.org/hcl/))  
+- No built-in OS-wide plausible deniability
+
+If you’re comfortable with Linux and have compatible hardware, Qubes OS offers one of the best security models available.
+
+### Pick your connectivity method
+
+**If maximum anonymity is your top priority:**  
+
+**Use Tor Alone** (User -> Tor -> Internet)  
+
+\+ Best for staying anonymous  
+\+ Keeps Tor’s stream isolation (separate circuits per app/session)  
+\- Some websites will block Tor exit nodes  
+\- You’ll face a lot of captchas and account signup blocks  
+\- Can raise suspicion in some places just for using Tor
+
+**If you need anonymity *and* need to access services that block Tor**
+
+**Use VPN/Proxy over Tor** (User -> Tor -> VPN -> Internet)  
+
+\+ Circumvents bans on Tor exit nodes  
+\+ Keeps your entry IP anonymous (VPN only sees Tor exit node)  
+\- Breaks Tor’s stream isolation (all apps use the same Tor circuit through the VPN)  
+\- Slightly weaker anonymity due to potential correlation attacks  
+\+ Good balance if you're careful with your identities and want to access mainstream sites
+
+**Best version**: Use your own self-hosted VPS paid with Monero or cash, running your own VPN/proxy.  
+
+\+ Dedicated IP avoids blocks, captchas  
+\+ No other users sharing your VPN IP, meaning fewer obstacles  
+\+ Still routes through Tor exit nodes for anonymity  
+
+**If you're in a place where Tor is blocked but VPN is tolerated**  
+
+**Use Tor over VPN** (User -> VPN -> Tor -> Internet)  
+
+\+ Hides Tor use from your ISP (they only see VPN traffic)  
+\+ Maintains Tor’s stream isolation  
+\- VPN provider knows your IP (so choose anonymous payment + no logs)  
+\- You’re still subject to Tor exit node bans on services  
+
+**Options to avoid**  
+
+- VPN Alone (User -> VPN -> Internet)  
+- VPN over VPN (User -> VPN -> VPN -> Internet)  
+- No VPN or Tor (just raw internet)  
+These don’t provide meaningful anonymity and are traceable over time.
+
+**My plain recommendation logic**  
+
+- **For pure anonymous browsing without accounts** -> **Tor Alone**  
+- **For creating accounts on services that block Tor** -> **VPN/Proxy over Tor** (ideally with your own VPS)  
+- **If Tor is blocked/censored where you are** -> **Tor over VPN**  
+
+**Important Trade-off to Remember:**
+
+- **Tor Alone** = Maximum anonymity, but often impractical (blocked, captchas)  
+- **VPN/Proxy over Tor** = More practical for everyday use (account creation, less blocking), but sacrifices some anonymity due to breaking stream isolation.
